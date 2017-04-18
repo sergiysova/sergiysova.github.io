@@ -94,9 +94,22 @@
 		padding-top: 20px;
 	}
 
+#left,
+#right,
+#left:hover,
+#right:hover{
+	background-image: none;
+}
+
+.carousel-caption {
+	left:0px!important;
+	right:0px!important;
+	margin-bottom: 0;
+}
 }
 
 @media(min-width:321px) and (max-width:480px) {
+
 	.logo:after{
 		display: none;
 	}
@@ -193,7 +206,18 @@ footer .logo img{
 		padding-top: 20px;
 	}
 
-	
+	#left,
+#right,
+#left:hover,
+#right:hover{
+	background-image: none;
+}
+
+.carousel-caption {
+	left:0px!important;
+	right:0px!important;
+	margin-bottom: 40px;
+}
 }
 
 
