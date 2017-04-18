@@ -94,12 +94,7 @@
 		padding-top: 20px;
 	}
 
-#left,
-#right,
-#left:hover,
-#right:hover{
-	background-image: none;
-}
+
 
 .carousel-caption {
 	left:0px!important;
@@ -206,12 +201,7 @@ footer .logo img{
 		padding-top: 20px;
 	}
 
-	#left,
-#right,
-#left:hover,
-#right:hover{
-	background-image: none;
-}
+
 
 .carousel-caption {
 	left:0px!important;

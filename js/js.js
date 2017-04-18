@@ -6,12 +6,12 @@
 	
 
 	
-	var left = document.getElementById('left');
-	var right = document.getElementById('right');
+	// var left = document.getElementById('left');
+	// var right = document.getElementById('right');
 
-	left.onclick = moveLeft;
-	right.onclick = moveRight;
-	// left.addEventListener('click', moveLeft() );
+	// left.onclick = moveLeft;
+	// right.onclick = moveRight;
+	// // left.addEventListener('click', moveLeft() );
 
 
 
@@ -78,109 +78,109 @@
 // }
 
 // SLIDER__________________________________________________________
-	setInterval(moveRight, 8000); 
-	var left = document.getElementById('left');
-	var right = document.getElementById('right');
-	var slide = document.getElementsByClassName("Element");
-	var	slide_mr = slide[0].style.marginLeft;
-	var step = +document.documentElement.clientWidth ;
-	var tumbler_wrap = document.getElementById('tumblers');
-	var buttons = document.getElementsByClassName('tumblr');
-	left.onclick = moveLeft;
-	right.onclick = moveRight;
-	var slide_counter = 0;
-	tumbler_wrap.onclick = function(event){
-		var target = event.target;
-		if(!(target.tagName = 'LI') )return;
-			for(var i = 0; i<buttons.length;i++){
-				if(buttons[i] == target){
-					var next = i;
-					break;
-				}
-			}
-			var num = next-slide_counter;
-			console.log(next + '-' + slide_counter + '=' + num);
+// 	setInterval(moveRight, 8000); 
+// 	var left = document.getElementById('left');
+// 	var right = document.getElementById('right');
+// 	var slide = document.getElementsByClassName("Element");
+// 	var	slide_mr = slide[0].style.marginLeft;
+// 	var step = +document.documentElement.clientWidth ;
+// 	var tumbler_wrap = document.getElementById('tumblers');
+// 	var buttons = document.getElementsByClassName('tumblr');
+// 	left.onclick = moveLeft;
+// 	right.onclick = moveRight;
+// 	var slide_counter = 0;
+// 	tumbler_wrap.onclick = function(event){
+// 		var target = event.target;
+// 		if(!(target.tagName = 'LI') )return;
+// 			for(var i = 0; i<buttons.length;i++){
+// 				if(buttons[i] == target){
+// 					var next = i;
+// 					break;
+// 				}
+// 			}
+// 			var num = next-slide_counter;
+// 			console.log(next + '-' + slide_counter + '=' + num);
 			
-		if(num >= 0 ){
-			for(var i = 0; i<num; i++){
-				console.log('right');
-				moveRight();	
-			}
-			}
-		else{
-			for(var i = 0; i<(-1*num); i++){
-				console.log('left');
-				moveLeft();
-			}
-		}	
-}
+// 		if(num >= 0 ){
+// 			for(var i = 0; i<num; i++){
+// 				console.log('right');
+// 				moveRight();	
+// 			}
+// 			}
+// 		else{
+// 			for(var i = 0; i<(-1*num); i++){
+// 				console.log('left');
+// 				moveLeft();
+// 			}
+// 		}	
+// }
 
 
 
-function moveLeft () {
+// function moveLeft () {
 	
-	slide_mr = +slide_mr +  step;
-	if(slide_mr>0){
-		slide_mr = -step*4;
-	}
+// 	slide_mr = +slide_mr +  step;
+// 	if(slide_mr>0){
+// 		slide_mr = -step*4;
+// 	}
 
-	slide[0].style.marginLeft =slide_mr + 'px' ;
-	for(var i = 0; i<buttons.length;i++){
-		if(buttons[i].classList.contains('tum_act')){
+// 	slide[0].style.marginLeft =slide_mr + 'px' ;
+// 	for(var i = 0; i<buttons.length;i++){
+// 		if(buttons[i].classList.contains('tum_act')){
 			
-			buttons[i].classList.remove('tum_act');
-			buttons[i].classList.add('tum_pas');
+// 			buttons[i].classList.remove('tum_act');
+// 			buttons[i].classList.add('tum_pas');
 			
-			if(i == 0){
-				buttons[buttons.length-1].classList.add('tum_act');
-				buttons[buttons.length-1].classList.remove('tum_pas');
-			}else{
-				buttons[i-1].classList.add('tum_act');
-				buttons[i-1].classList.remove('tum_pas');
-			}
-			slide_counter = !buttons[i-1] ? buttons.length-1 : i-1;
-			break;
+// 			if(i == 0){
+// 				buttons[buttons.length-1].classList.add('tum_act');
+// 				buttons[buttons.length-1].classList.remove('tum_pas');
+// 			}else{
+// 				buttons[i-1].classList.add('tum_act');
+// 				buttons[i-1].classList.remove('tum_pas');
+// 			}
+// 			slide_counter = !buttons[i-1] ? buttons.length-1 : i-1;
+// 			break;
 			
 
-		}
+// 		}
 
-	}
+// 	}
 
-}
-function moveRight () {
+// }
+// function moveRight () {
 	
-	//console.log(slide_mr);
-	slide_mr = +slide_mr +  -step;
+// 	//console.log(slide_mr);
+// 	slide_mr = +slide_mr +  -step;
 	
-	if(slide_mr<=-5*step){
-		slide_mr = 8;
-	}
-	slide[0].style.marginLeft =slide_mr + 'px' ;
+// 	if(slide_mr<=-5*step){
+// 		slide_mr = 8;
+// 	}
+// 	slide[0].style.marginLeft =slide_mr + 'px' ;
 
 
-	for(var i = 0; i<buttons.length;i++){
-		if(buttons[i].classList.contains('tum_act')){
+// 	for(var i = 0; i<buttons.length;i++){
+// 		if(buttons[i].classList.contains('tum_act')){
 			
-			buttons[i].classList.remove('tum_act');
-			buttons[i].classList.add('tum_pas');
+// 			buttons[i].classList.remove('tum_act');
+// 			buttons[i].classList.add('tum_pas');
 
 			
-			if(!buttons[i+1]){
-				buttons[0].classList.add('tum_act');
-				buttons[0].classList.remove('tum_pas');
-			}else{
-				buttons[i+1].classList.add('tum_act');
-				buttons[i+1].classList.remove('tum_pas');
-			}
-			slide_counter = !buttons[i+1] ? 0 : i+1;
-			break;
+// 			if(!buttons[i+1]){
+// 				buttons[0].classList.add('tum_act');
+// 				buttons[0].classList.remove('tum_pas');
+// 			}else{
+// 				buttons[i+1].classList.add('tum_act');
+// 				buttons[i+1].classList.remove('tum_pas');
+// 			}
+// 			slide_counter = !buttons[i+1] ? 0 : i+1;
+// 			break;
 			
 
-		}
-	}
+// 		}
+// 	}
 	
 
-}
+// }
 
 
 
