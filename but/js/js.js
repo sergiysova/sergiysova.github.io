@@ -20,6 +20,7 @@ left.onclick  = function () {
 		if(inp.value <0){
 		
 		cart.style.display  = 'none';
+		inp.value = 0;
 		}
 	
 }
