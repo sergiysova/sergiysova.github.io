@@ -101,10 +101,17 @@
 	right:0px!important;
 	margin-bottom: 0;
 }
+.search {
+	margin-top: 8px;
+}
+
 }
 
 @media(min-width:321px) and (max-width:480px) {
 
+	.search{
+	margin-top: 10px;
+}
 	.logo:after{
 		display: none;
 	}

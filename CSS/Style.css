@@ -92,7 +92,10 @@
 	text-decoration: none;
 	color: rgb(256,256,256);
 }
-.menu a:hover{
+.menu a:hover,
+.menu a:focus,
+.menu a:active{
+	text-decoration: none;
 	border: none;
 	color: rgb(199,179,153);
 }
@@ -157,15 +160,15 @@ h1,h2,h3,h4,h5,p{
 	vertical-align: middle;
 }
 
-h1{
-	font-family: "Raleway Extrabold"!important;
+body h1{
+	font-family: "Raleway Extrabold";
 	color: #ffffff;
 	font-size: 36px;
 	
 }
-h2{
+body h2{
 	margin-top: 10%;
-	font-family:"Raleway Medium" !important;
+	font-family:"Raleway Medium" ;
 	color: #ffffff;
 	font-size: 24px;
 	
@@ -207,7 +210,9 @@ header p{
 
 } 
 
-.button:hover{
+.button:hover,
+.button:active,
+.button:focus{
 	color:#ffffff;
 	text-decoration: none;
 }
@@ -669,10 +674,7 @@ li.info{
 
 	height: 45px;
 	overflow-y: hidden;
-	 -moz-transition: height 1s ease;
-    -webkit-transition: height 1s ease;
-    -o-transition: height 1s ease;
-    transition: height 1s ease;
+	 
 
 }
 // .short{

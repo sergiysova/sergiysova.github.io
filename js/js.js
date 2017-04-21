@@ -251,7 +251,7 @@ var icon = document.getElementById('rot_icon');
 var menu = document.getElementById('menu-list');
 
 	icon.onclick =function () {
-
+		document.getElementById("carousel-example-generic").classList.toggle('hidden');
 		if( menu.classList.contains('yes') ){
 			menu.style.width  = '0px';	
 		}
