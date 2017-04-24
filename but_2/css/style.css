@@ -3,14 +3,16 @@
 
 .right_list_container
 {
-	max-width:996px;
-	float:left;
+	
+  height: auto;
+  width: 100%;
+
 }
 
 .product_list_left
 {
 	width:590px;
-	float:left;
+	display: inline-block;
 	height:70px;
 	background:#D9D9D9;
 	padding:6px 15px;
@@ -82,9 +84,9 @@
 
 .product_list_right
 {
+  display: inline-block;
 	width:343px;
-	float:right;
-	height:70px;
+	  height: 100%; 
 	background:#C6D1DD;
 	padding:6px 15px;
 	position: relative;
