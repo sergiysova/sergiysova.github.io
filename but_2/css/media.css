@@ -1,14 +1,21 @@
-@media(min-width:627px) and (max-width:1010px) {
-	.product_list_right
+@media(min-width:768px) and (max-width:1010px) {
+.right_list_container{
+		width: 100%;
+		
+	}
+.product_list_right
 { 
-	float: left
+	float: left;
+	width: 35%;
 }
-
+.product_list_left{
+width:57%
 }
-@media(min-width:466px) and (max-width:626px) {
+}
+@media(min-width:466px) and (max-width:767px) {
 	.product_list_left,
 	.product_list_right{
-		width: auto;
+		width: 95%;
 		margin: 0;
 		float: left
 	}
@@ -16,7 +23,7 @@
 
 	.right_list_container{
 		max-width: 100%;
-		box-sizing: border-box;
+		
 	}
 }
 @media(min-width:395px) and (max-width:465px) {
