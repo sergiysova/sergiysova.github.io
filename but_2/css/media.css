@@ -120,17 +120,21 @@ width:55%
 	.product_list_left{
 
 	height: 100%;
-	width:57%
+	width:48%;
+	padding-left: 0;
+
 }
 .product_list_right
 { 
 	
-	width: 25%;
+	width: 35%;
 	height: 100% !important;
 
 }
 .product_list_right h2{
 	font-size: 14px;
+	padding-left: 0!important;
+	padding-right: 0!important;
 }
 
 .product_list_left h2{
@@ -141,13 +145,29 @@ width:55%
 .product_cart_btn{
 	position: absolute;
 	top:90px;
-	right: 5px;
+	right: 6px;
 }
 	.product_list_right_inn,
 	.product_list_img{
  		display: block;
  		margin-left: 35%;
  		}
+
+.product_cart_btn,
+
+.amount,
+.left,
+.right{
+	width: 42px;
+	height: 42px;
+}
+.left,
+.right{
+	padding-top: 4px;
+}
+.product_list_center{
+	margin-left: 8px;
+	width: 100%;
 
 }
 
