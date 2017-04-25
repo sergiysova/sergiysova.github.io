@@ -127,7 +127,7 @@ width:55%
 .product_list_right
 { 
 	
-	width: 35%;
+	width: 37%;
 	height: 100% !important;
 
 }
@@ -153,14 +153,7 @@ width:55%
  		margin-left: 35%;
  		}
 
-.product_cart_btn,
 
-.amount,
-.left,
-.right{
-	width: 42px;
-	height: 42px;
-}
 .left,
 .right{
 	padding-top: 4px;
