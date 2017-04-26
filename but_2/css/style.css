@@ -1,6 +1,53 @@
 @charset "utf-8";
 /* CSS Document */
 
+.crumbs li{
+  display: inline-block;
+  list-style: none;
+  padding: 8px 22px 8px 16px;
+  border-radius: 18px;
+  margin-left:0;
+  transition: margin 0.3s;
+  z-index: 10;
+
+}
+.crumbs li:after{
+z-index: 1;
+ content: "";
+ position: absolute;
+ width: 20px;
+ height: 30px;
+ background-image: url("../images/right.png");
+ background-position: center 2px;
+ background-repeat: no-repeat;
+
+
+}
+
+.crumbs li:hover{
+  background-color: #adbace;
+  margin-left: -24px;
+}
+
+
+
+.crumbs a{
+  color:#809faa;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.crumbs a:hover,
+.crumbs a:active
+{
+  color:#809faa;
+  text-decoration: none;
+
+}
+
+
+
 .right_list_container
 {
 	
