@@ -40,5 +40,5 @@ $(document).click( function(event){
 if( $(event.target).closest("#cart").length || $(event.target).closest(".product_cart_btn").length) 
 return; 
 SetHide();
-return false; 
+return ; 
 });
