@@ -94,7 +94,7 @@ body{
    background-color:#b8c3c6 ;
    margin-left: -3px; 
 }
-.crumbs>li:hover .name:hover{
+.crumbs>li:hover .comp:hover{
    background-color: #91a6c6;
    
 }
