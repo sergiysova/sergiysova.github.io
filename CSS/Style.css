@@ -139,7 +139,9 @@
 header {
 	height: 100vh;
 	background-color: #566444;
-	background-image: url('../img/head_bg.png')
+	background-image: url('../img/head_bg.png');
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 .logo{
 	text-align: center;
