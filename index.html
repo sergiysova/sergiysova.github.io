@@ -1,11 +1,691 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Portfolio</title>
-</head>
-<body>
-	<h1>Here will be my portfolio! <br> Wait, Please:)</h1>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Waxom</title>
 
-</body>
-</html>
+	
+	<link rel="stylesheet" href="CSS/Style.css">
+	<link rel="stylesheet" href="CSS/media.css">
+	<link rel="stylesheet" href="CSS/bootstrap3.css">
+
+
+</head>	
+<body>
+
+	<header>
+		<div class="container-fluid " >
+			<div class="contaiter">
+				<div class="row mnu">
+					<nav>
+						
+						<div class="col-md-3 col-sm-2 col-lg-4  col-xs-10">
+							<div class="logo">
+								<img src="img/logos.png" alt="logos">
+							</div>
+							
+						</div>
+						<div class="col-md-8 col-sm-9 menu col-lg-6 " id="side_menu" >
+								<div class="menu-icon" id="rot_icon">
+									<div class="bars" id="bar1"></div>
+									<div class="bars" id="bar2"></div>
+									<div class="bars" id="bar3"></div>
+								</div>
+							<ul class="list-inline    " id="menu-list">
+								
+								<li class="menu-item"><a href="#">Home</a></li>
+								<li class="menu-item"><a href="#">About us</a></li>
+								<li class="menu-item"><a href="#">Portfolio</a></li>
+								<li class="menu-item"><a href="#">Features</a></li>
+								<li class="menu-item"><a href="#">Blog</a></li>
+								<li class="menu-item"><a href="#">Pricing</a></li>
+								<li class="menu-item"><a href="#">Shortcodes</a></li>
+								<li class="menu-item"><a href="#">Contact</a></li>
+								<!-- <li><a href="#"><img src="img/icon-cart.png" alt="cart"></a></li>
+								<li></li> -->
+							</ul>
+
+						</div>
+						<div class="col-md-1 col-sm-1 col-lg-1 col-xs-2">
+							<div class="search">
+								<a href="#"><img src="img/icon-search.png" alt="search"></a>
+							</div>
+						</div>
+					</nav>
+
+				</div>
+			</div>
+			
+			<!-- <div class="container_flex">
+				<div class="flexslider" id="flex">
+
+					<ul class="slides list-inline">
+						<li class="Element "><div class="slider_content ">
+							<h2>Unique and Modern Design</h2>
+							<h1>Portfolio PSD Template</h1>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil<br> imperdiet doming id quod mazim placerat facer possim assum.</p>
+							<a href="#" class="button" >Get started</a>
+						</div></li>
+						<li class="Element "><div class="slider_content " >
+							<h2>Unique and Modern Design</h2>
+							<h1>Portfolio PSD Template</h1>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil<br> imperdiet doming id quod mazim placerat facer possim assum.</p>
+							<a href="#" class="button" >Get started</a>
+						</div></li>
+						<li class="Element "><div class="slider_content ">
+							<h2>Unique and Modern Design</h2>
+							<h1>Portfolio PSD Template</h1>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil<br> imperdiet doming id quod mazim placerat facer possim assum.</p>
+							<a href="#" class="button" >Get started</a>
+						</div></li>
+						<li class="Element "><div class="slider_content ">
+							<h2>Unique and Modern Design</h2>
+							<h1>Portfolio PSD Template</h1>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil<br> imperdiet doming id quod mazim placerat facer possim assum.</p>
+							<a href="#" class="button" >Get started</a>
+						</div></li>
+						<li class="Element "><div class="slider_content ">
+							<h2>Unique and Modern Design</h2>
+							<h1>Portfolio PSD Template</h1>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil<br> imperdiet doming id quod mazim placerat facer possim assum.</p>
+							<a href="#" class="button" >Get started</a>
+						</div></li>
+					</ul>
+					<div id="left"></div>
+					<div id="right"></div>
+					<ul  id=tumblers>
+						<li class="tumblr tum_act"></li>
+						<li class="tumblr tum_pas"></li>
+						<li class="tumblr tum_pas"></li>
+						<li class="tumblr tum_pas"></li>
+						<li class="tumblr tum_pas"></li>
+					</ul>
+				</div>
+			</div> -->
+			<div class="container_flex">
+				
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+
+							<div class="carousel-caption">
+								<h2>Unique and Modern Design</h2>
+								<h1>Portfolio PSD Template</h1>
+								<p>Nam liber tempor cum soluta nobis eleifend option congue nihil<br> imperdiet doming id quod mazim placerat facer possim assum.</p>
+								<a href="#" class="button" >Get started</a>
+							</div>
+						</div>
+
+						<div class="item">
+
+							<div class="carousel-caption">
+								<h2>Unique and Modern Design</h2>
+								<h1>Portfolio PSD Template</h1>
+								<p>Nam liber tempor cum soluta nobis eleifend option congue nihil<br> imperdiet doming id quod mazim placerat facer possim assum.</p>
+								<a href="#" class="button" >Get started</a>
+							</div>
+						</div>
+
+						<div class="item">
+
+							<div class="carousel-caption">
+								<h2>Unique and Modern Design</h2>
+								<h1>Portfolio PSD Template</h1>
+								<p>Nam liber tempor cum soluta nobis eleifend option congue nihil<br> imperdiet doming id quod mazim placerat facer possim assum.</p>
+								<a href="#" class="button" >Get started</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Controls -->
+					<a id="left" class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+
+						
+					
+				</a>
+				<a id="right" class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+					
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+	</header>
+	<main>
+		<div class="container features">
+			<div class="row">
+				<div class=" col-sm-3 can" id="web"><div class=""  >
+ 
+					<h4>Web & App Design</h4>
+					<p>Nam liber tempor cum soluta nobis<br> eleifend option congue nihil imperdiet<br> doming id quod mazim.</p>
+					<div class="line"></div>
+				</div></div>
+				<div class=" col-sm-3 can" id="dev"><div class=""  >
+
+					<h4>Development</h4>
+					<p>Lorem ipsum dolor sit amet, adipiscing<br> elit, sed diam nonummy nibh euismod<br> tincidunt ut laoreet.</p>
+					<div class="line"></div>
+				</div></div>
+				<div class=" col-sm-3 can" id="cust"><div class=""  >
+
+					<h4>Customization</h4>
+					<p>Nam liber tempor cum soluta nobis<br> eleifend option congue nihil imperdiet<br> doming id quod mazim.</p>
+					<div class="line"></div>
+				</div></div>
+				<div class=" col-sm-3 can" id="mark"><div class=""  >
+
+					<h4>Marketing</h4>
+					<p>Nam liber tempor cum soluta nobis<br> eleifend option congue nihil imperdiet<br> doming id quod mazim.</p>
+					<div class="line"></div>
+				</div></div>
+			</div>
+
+		</div>
+		<div class="container-fluid screens">
+			<div class="container">
+				<h3>Waxom is Realization of your Ideas.</h3>
+				<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+				<img src="img/browser-center.png" alt="">
+			</div>
+		</div>
+		<div class="container-fluid purchaise">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-9 col-xs-12">
+						<h3><span class="brown">Waxom</span> Multipurpose WordPress Theme</h3>
+						<p>Don't Forget to Rate the Template. Thanks so much!</p></div>
+						<div class="col-sm-4 col-md-3 col-xs-12 purch">
+							<a href="#" class="button">Purchaise now</a>
+						</div>
+					</div>
+				</div>
+
+				
+		</div>
+		<div class="container-fluid projects">
+			<div class="container">
+			<div class="row projects-row">
+				
+			
+				<div>
+					<h3>Our Latest Projects.</h3>
+					<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam<br> processus dynamicus, qui sequitur mutationem consuetudium.</p>
+				</div>
+				<ul  id="category"	class="category list-inline"> 
+					<li class="property property_active" data-category="all">All
+						
+					</li>
+					<li class="property" data-category="Web">Web Design
+						
+					</li>
+					<li class="property" data-category="mobile">Mobile App
+						
+					</li>
+					<li class="property" data-category="illustration">Illustration
+						
+					</li>
+					<li class="property" data-category="photography">Photography
+						
+					</li>
+				</ul>
+				<ul class="project-list list-inline ">
+					<li class="project-item mobile all">
+						<div class="category_content ">
+							<div class="image">
+								<img src="img/photo_phone.png" alt="mobile">
+							<div class="shadow ">
+								<a href="" class="linnks">
+									<div class="link-img lupa"></div>
+								</a><a href="" class="linnks">
+									<div class="link-img link"></div>
+								</a>
+							</div>
+							</div>
+							
+
+							<div class="foot">
+								<div class="arrow"></div>
+								<h5>Claritas Etiam Processus</h5>
+								<p>Photography, Nature</p>
+							</div>
+						</div>
+					</li>
+					<li class="project-item photography all" >
+						<div class=" category_content ">
+							<div class="image">
+								<img src="img/photo_mount.png" alt="mobile">
+							<div class="shadow ">
+								<a href="" class="linnks">
+									<div class="link-img lupa"></div>
+								</a><a href="" class="linnks">
+									<div class="link-img link"></div>
+								</a>
+							</div>
+							</div>
+							<div class="foot">
+								<div class="arrow"></div>
+								<h5>Quam Nutamus Farum</h5>
+								<p>Graphic Design, Mock-Up</p>
+							</div>
+						</div>
+					</li>
+					<li class="project-item illustration all">
+						<div class="category_content " >
+							<div class="image">
+								<img src="img/photo_book.png" alt="mobile">
+							<div class="shadow ">
+								<a href="" class="linnks">
+									<div class="link-img lupa"></div>
+								</a><a href="" class="linnks">
+									<div class="link-img link"></div>
+								</a>
+							</div>
+							</div>
+							<div class="foot">
+								<div class="arrow"></div>
+								<h5>Usus Legentis Videntur</h5>
+								<p>Photography, Holiday</p>
+							</div>
+						</div>
+					</li>
+					<li class="project-item photography all">
+						<div class="category_content ">
+							<div class="image">
+								<img src="img/photo_birds.png" alt="mobile">
+							<div class="shadow ">
+								<a href="" class="linnks">
+									<div class="link-img lupa"></div>
+								</a><a href="" class="linnks">
+									<div class="link-img link"></div>
+								</a>
+							</div>
+							</div>
+							<div class="foot">
+								<div class="arrow"></div>
+								<h5>Claritas Etiam Processus</h5>
+								<p>Photography, Nature</p>
+							</div>
+						</div>
+					</li>
+					<li class="project-item illustration all">
+						<div class="category_content ">
+							<div class="image">
+								<img src="img/photo_book2.png" alt="mobile">
+							<div class="shadow ">
+								<a href="" class="linnks">
+									<div class="link-img lupa"></div>
+								</a><a href="" class="linnks">
+									<div class="link-img link"></div>
+								</a>
+							</div>
+							</div>
+							<div class="foot">
+								<div class="arrow"></div>
+								<h5>Quam Nutamus Farum</h5>
+								<p>Graphic Design, Mock-Up</p>
+							</div>
+						</div>
+					</li>
+					<li class="project-item photography all">
+						<div class="category_content ">
+							<div class="image">
+								<img src="img/photo_sea.png" alt="mobile">
+							<div class="shadow ">
+								<a href="" class="linnks">
+									<div class="link-img lupa"></div>
+								</a><a href="" class="linnks">
+									<div class="link-img link"></div>
+								</a>
+							</div>
+							</div>
+							<div class="foot">
+								<div class="arrow"></div>
+								<h5>Usus Legentis Videntur</h5>
+								<p>Photography, Holiday</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+					<a href="#" class="button">Load More</a>
+				
+			</div>
+			</div>
+		</div>
+		<div class="container-fluid for-mobile">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 hidden-xs">
+						<div class="hand">
+							<img src="img/iPhone-in-hand.png" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="mobile-about">
+							<h3>Excellent for Mobile Devices.</h3>
+							<p class="info" >Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+							<ul>
+								<li class="info list-unstyled">Nam liber tempor cum soluta nobis eleifend option;</li>
+								<li class="info list-unstyled">Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+								<li class="info list-unstyled">Eodem modo typi, qui nunc nobis videntur parum futurum;
+</li>
+								<li class="info list-unstyled">Investigationes demonstraverunt lectores</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="conntainer-fluid statistic	">
+			<div class="container">
+				<div class="row statistic-row">
+					
+					
+						<div id="clients"	class="stat" >
+							<p class="number">3587</p>
+					<p>Satisfied Clients</p>
+					<div class="line-down"></div>
+						</div>
+					
+					
+						<div id="coffe"	class="stat">
+							<p class="number">287</p>
+							<p>Cups of coffee</p>
+							<div class="line-down">
+
+						</div>
+						</div>
+					
+					
+					<div id="posts"	class="stat">
+						<p class="number">2500</p>
+					<p>Blog posts</p>
+					<div class="line-down">
+					
+					
+						
+					</div>
+					</div>
+					
+						<div id="likes"	class="stat">
+							<p class="number">873</p>
+					<p>Likes</p>
+					<div class="line-down">
+						
+					
+						
+					</div>
+					</div>
+					
+					<div id="launch"	class="stat">
+						<p class="number">900</p>
+					<p>We Launched</p>
+					<div class="line-down">
+					</div>
+					
+						
+					</div>
+				
+					
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid recent">
+			<div class="container">
+				<div class="row row-recent">
+					<h3>Recent Posts</h3>
+					<p class="info">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+
+					<ul class="list-inline shortcodes">
+						<!-- <li class="project-item">
+							<div class="image">
+								<img src="img/photo_foots.png" alt="">
+							</div>
+						</li>
+						<li class="project-item">
+							<div class="image">
+							<div class="shadow"></div>
+							<img src="img/photo_laptop.png" alt=""></div>
+						</li>
+						<li class="project-item">
+							<div class="image"><img src="img/photo_ship.png" alt=""></div>
+						</li> -->
+
+						<li class="project-item ">
+						<div class="category_content ">
+							<div class="image">
+								<img src="img/photo_foots.png" alt="">
+								<div class="shadow">
+							
+							</div>
+								<div class="date">
+									<div class="day">30</div>
+									<div class="mounth">Sep.</div>
+								</div>
+							</div>
+							<div class="foot">
+								
+								<h5>Lorem ipsum dolor sit amet</h5>
+								<div class="read-more  ">
+									<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br></p>
+								</div>
+								
+								<a  class="more">read more</a>
+							</div>
+						</div>
+					</li>
+					<li class="project-item ">
+						<div class="category_content ">
+							<div class="image">
+								<img src="img/photo_laptop.png" alt="">
+								<div class="shadow">
+							
+							</div>
+								<div class="date">
+									<div class="day">30</div>
+									<div class="mounth">Sep.</div>
+								</div>
+							</div>
+							<div class="foot">
+								
+								<h5>Lorem ipsum dolor sit amet</h5>
+								<div class="read-more  ">
+								<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br</p>
+								</div>
+								<a  class="more">read more</a>
+							</div>
+						</div>
+					</li>
+					<li class="project-item  ">
+						<div class="category_content ">	
+							<div class="image">
+								<img src="img/photo_ship.png" alt="">
+								<div class="shadow">
+							
+							</div>	
+								<div class="date">
+									<div class="day">30</div>
+									<div class="mounth">Sep.</div>
+								</div>
+								
+							</div>
+							<div class="foot">
+								
+								<h5>Lorem ipsum dolor sit amet</h5>
+								<div class="read-more  ">
+								<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br>
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.<br</p>
+								</div>
+								<a class="more">read more</a>
+							</div>
+						</div>
+					</li>
+
+
+
+
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid sponsors">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-xs-6">
+						<div id="Barber" class="company" >
+							<img src="img/Barber.png" alt="">
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div id="Delicios" class="company">
+							<img src="img/Delicios.png" alt="">
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div id="Designers" class="company">
+							<img src="img/Designers.png" alt="">
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div id="Royal" class="company">
+							<img src="img/Royal.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		</main>
+		<footer>
+			<div class="container-fluid footer_fluid">
+				<div class="container">
+					<div class="row ">
+						<div class="col-sm-3 first">
+						
+							
+						
+						<div class="logo">
+								<img src="img/logos.png" alt="logos">
+							</div>
+							<div class="foot-info">
+							
+								<div class="read-more ">
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+								
+							</div>
+							<a class="more" >read more</a>
+							
+							
+							</div>
+						</div>	
+						<div class="col-sm-3 ">
+							<h3 class="footer-tittle">Recent Posts</h3>
+							<div class="post">
+								<p class="post-date">
+								April 10, 2017</p>
+								<p class="post-text">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+							</div>
+							<hr>
+							<div class="post">
+								<p class="post-date">
+								April 10, 2017</p>
+								<p class="post-text">
+								
+									Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima
+								</p>
+							</div>
+							<hr>
+							<div class="post">
+								<p class="post-date">April 10, 2017</p>
+								<p class="post-text">
+									
+									Diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+								</p>
+							</div>
+
+						</div>
+
+						<div class="col-sm-3 twitter">
+							<h3 class="footer-tittle">Our Twitter</h3>
+							<div class="twit">
+								<p class="post-text"><span class="hash-tag">@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+								<p class="post-date">3 mins ago</p>
+							</div>
+							<hr>
+							<div class="twit">
+								<p class="post-text">Mirum est <span class="hash-tag">#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+								<p class="post-date">5 hours ago</p>
+							</div>
+							<hr>
+							<div class="twit">
+								<p class="post-text">Soluta nobis option <a class="twit-link" href="https://vk.com/serj.sova">bit.ly/1Hniso7</a></p>
+								<p class="post-date">2 days ago </p>
+							</div>
+							
+
+
+							
+						</div>
+						
+						<div class="col-sm-3 ">
+							<h3 class="footer-tittle">Dribble Widget</h3>
+							<div class="foot-img"><img src="img/foot-phone.png" alt=""></div>
+							<div class="foot-img"><img src="img/foot-pack.png" alt=""></div>
+							<div class="foot-img"><img src="img/foot_book.png" alt=""></div>
+							<div class="foot-img"><img src="img/foot-pink.png" alt=""></div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5 col-sm-7">
+							<p class="copyrighter">Copyright © 2015 <span class="name">Sergiy Sova</span></p>
+							<a href="#" class="back">Privacy Policy</a>
+							<a href="#" class="back">FAQ</a>
+							<a href="#" class="back">Support</a>
+						</div>
+						<div class="col-md-4 col-sm-5 col-md-offset-3">
+							<p class="designed">Designed by <span class="name">Sergiy Sova</span>   |   Only on Envato <span class="name">Market</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+<script src="js/jquery-3.1.1.js" ></script>
+		<script src="js/js.js"></script>
+		
+    	
+    	<script src="js/bootstrap.js"></script>
+	</body>
+	</html>
