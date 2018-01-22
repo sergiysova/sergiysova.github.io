@@ -21,6 +21,13 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: "RobotoCondensedRegular";
+  src: url("../fonts/RobotoCondensedRegular.eot");
+  src: url("../fonts/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensedRegular.woff") format("woff"), url("../fonts/RobotoCondensedRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 a:focus,
 a:active,
 button:focus,
@@ -615,6 +622,11 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
 .footer-fluid {
   padding: 50px 0;
   background-color: #222222;
+}
+.footer-fluid .elem_text {
+  color: #ffffff;
+  font-family: "RobotoCondensedRegular";
+  text-align: center;
 }
 @media (min-width: 0px) and (max-width: 318px) {
   header .navbar .mainmenu {

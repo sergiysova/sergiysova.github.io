@@ -12,23 +12,33 @@
     font-style: normal;
 }
 @font-face {
-			font-family: "MyriadProRegular";
-			src: url("../fonts/MyriadProRegular.eot");
-			src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-			url("../fonts/MyriadProRegular.woff") format("woff"),
-			url("../fonts/MyriadProRegular.ttf") format("truetype");
-			font-style: normal;
-			font-weight: normal;
+	font-family: "MyriadProRegular";
+	src: url("../fonts/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
-	@font-face {
-			font-family: "RobotoCondensedBold";
-			src: url("../fonts/RobotoCondensedBold.eot");
-			src: url("../fonts/RobotoCondensedBold.eot?#iefix")format("embedded-opentype"),
-			url("../fonts/RobotoCondensedBold.woff") format("woff"),
-			url("../fonts/RobotoCondensedBold.ttf") format("truetype");
-			font-style: normal;
-			font-weight: normal;
-	}
+@font-face {
+	font-family: "RobotoCondensedBold";
+	src: url("../fonts/RobotoCondensedBold.eot");
+	src: url("../fonts/RobotoCondensedBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoCondensedBold.woff") format("woff"),
+	url("../fonts/RobotoCondensedBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RobotoCondensedRegular";
+	src: url("../fonts/RobotoCondensedRegular.eot");
+	src: url("../fonts/RobotoCondensedRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoCondensedRegular.woff") format("woff"),
+	url("../fonts/RobotoCondensedRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
 
 a:focus, a:active,button:focus, button:active,input:focus, input:active,li:focus{
 	outline: none;
@@ -365,7 +375,7 @@ header.collapsed{
 	margin: 20px;
 
 }
-		.elem_text{
+.elem_text{
 	font-family: 'Gotham Book';
 	text-align: justify;
 	font-size: 16px;
@@ -525,6 +535,7 @@ header.collapsed{
 			margin: 0 auto;
 			img{
 				width: 100%;
+
 			}
 
 			.post_title{
@@ -805,6 +816,12 @@ header.collapsed{
 .footer-fluid{
 	padding: 50px 0;
 	background-color: #222222;
+
+	.elem_text{
+		color: #ffffff;
+		font-family: "RobotoCondensedRegular";
+		text-align: center;
+	}
 }
 
 
