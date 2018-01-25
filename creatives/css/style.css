@@ -435,17 +435,20 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   padding-left: 80px;
   background-color: #11749e;
 }
-.ads-fluid .ads .ads_text {
+.ads-fluid .ads .ad_text {
   padding-left: 120px;
   position: relative;
   color: #ffffff;
 }
-.ads-fluid .ads .ads_text:before {
+.ads-fluid .ads .ad_text:before {
   font-family: FontAwesome;
   content: "\f0f3 ";
   position: absolute;
   left: 40px;
   font-size: 50px;
+}
+.ads-fluid .ads .ad_text .elem_text {
+  font-size: 14px;
 }
 .phone-fluid {
   background-image: url('../img/Phone_bg.png');
@@ -713,10 +716,10 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   .ads-fluid {
     padding: 50px 20px;
   }
-  .ads-fluid .ads .ads_text {
+  .ads-fluid .ads .ad_text {
     padding-left: 80px;
   }
-  .ads-fluid .ads .ads_text:before {
+  .ads-fluid .ads .ad_text:before {
     top: 15%;
     left: 10px;
   }
@@ -822,10 +825,10 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   .ads-fluid .ads {
     margin-bottom: 20px;
   }
-  .ads-fluid .ads .ads_text {
+  .ads-fluid .ads .ad_text {
     padding-left: 80px;
   }
-  .ads-fluid .ads .ads_text:before {
+  .ads-fluid .ads .ad_text:before {
     top: 15%;
     left: 10px;
   }
@@ -946,12 +949,18 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   .ads-fluid .ads {
     margin-bottom: 20px;
   }
-  .ads-fluid .ads .ads_text {
+  .ads-fluid .ads .ad_text {
     padding-left: 80px;
   }
-  .ads-fluid .ads .ads_text:before {
+  .ads-fluid .ads .ad_text:before {
     top: 15%;
     left: 10px;
+  }
+  .phone-fluid {
+    padding: 20px 0;
+  }
+  .phone-fluid .phone-container .qualities {
+    padding: 0;
   }
   .team-fluid .team-container .teammates {
     margin-bottom: 80px;
@@ -999,10 +1008,10 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   .ads-fluid {
     padding: 50px 20px;
   }
-  .ads-fluid .ads .ads_text {
+  .ads-fluid .ads .ad_text {
     padding-left: 80px;
   }
-  .ads-fluid .ads .ads_text:before {
+  .ads-fluid .ads .ad_text:before {
     top: 15%;
     left: 10px;
   }
