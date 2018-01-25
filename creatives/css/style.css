@@ -430,24 +430,24 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
 .blog-fluid .post-wrap .post .post_text {
   text-align: center;
 }
-.ad-fluid {
+.essay-fluid {
   padding: 100px;
   padding-left: 80px;
   background-color: #11749e;
 }
-.ad-fluid .ad .ad_text {
+.essay-fluid .essay .essay_text {
   padding-left: 120px;
   position: relative;
   color: #ffffff;
 }
-.ad-fluid .ad .ad_text:before {
+.essay-fluid .essay .essay_text:before {
   font-family: FontAwesome;
   content: "\f0f3 ";
   position: absolute;
   left: 40px;
   font-size: 50px;
 }
-.ad-fluid .ad .ad_text .elem_text {
+.essay-fluid .essay .essay_text .elem_text {
   font-size: 14px;
 }
 .phone-fluid {
@@ -713,13 +713,13 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   .about-fluid .article_photo {
     display: none;
   }
-  .ad-fluid {
+  .essay-fluid {
     padding: 50px 20px;
   }
-  .ad-fluid .ad .ad_text {
+  .essay-fluid .essay .essay_text {
     padding-left: 80px;
   }
-  .ad-fluid .ad .ad_text:before {
+  .essay-fluid .essay .essay_text:before {
     top: 15%;
     left: 10px;
   }
@@ -819,16 +819,16 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
     width: 100%;
     margin-bottom: 20px;
   }
-  .ad-fluid {
+  .essay-fluid {
     padding: 50px 20px;
   }
-  .ad-fluid .ad {
+  .essay-fluid .essay {
     margin-bottom: 20px;
   }
-  .ad-fluid .ad .ad_text {
+  .essay-fluid .essay .essay_text {
     padding-left: 80px;
   }
-  .ad-fluid .ad .ad_text:before {
+  .essay-fluid .essay .essay_text:before {
     top: 15%;
     left: 10px;
   }
@@ -943,16 +943,16 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
     left: 44%;
     top: -19%;
   }
-  .ad-fluid {
+  .essay-fluid {
     padding: 50px 20px;
   }
-  .ad-fluid .ad {
+  .essay-fluid .essay {
     margin-bottom: 20px;
   }
-  .ad-fluid .ad .ad_text {
+  .essay-fluid .essay .essay_text {
     padding-left: 80px;
   }
-  .ad-fluid .ad .ad_text:before {
+  .essay-fluid .essay .essay_text:before {
     top: 15%;
     left: 10px;
   }
@@ -1005,13 +1005,13 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   .top-fluid .top-container .powered {
     letter-spacing: 6px;
   }
-  .ad-fluid {
+  .essay-fluid {
     padding: 50px 20px;
   }
-  .ad-fluid .ad .ad_text {
+  .essay-fluid .essay .essay_text {
     padding-left: 80px;
   }
-  .ad-fluid .ad .ad_text:before {
+  .essay-fluid .essay .essay_text:before {
     top: 15%;
     left: 10px;
   }
