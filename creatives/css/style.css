@@ -430,24 +430,24 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
 .blog-fluid .post-wrap .post .post_text {
   text-align: center;
 }
-.ads-fluid {
+.ad-fluid {
   padding: 100px;
   padding-left: 80px;
   background-color: #11749e;
 }
-.ads-fluid .ads .ad_text {
+.ad-fluid .ad .ad_text {
   padding-left: 120px;
   position: relative;
   color: #ffffff;
 }
-.ads-fluid .ads .ad_text:before {
+.ad-fluid .ad .ad_text:before {
   font-family: FontAwesome;
   content: "\f0f3 ";
   position: absolute;
   left: 40px;
   font-size: 50px;
 }
-.ads-fluid .ads .ad_text .elem_text {
+.ad-fluid .ad .ad_text .elem_text {
   font-size: 14px;
 }
 .phone-fluid {
@@ -713,13 +713,13 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   .about-fluid .article_photo {
     display: none;
   }
-  .ads-fluid {
+  .ad-fluid {
     padding: 50px 20px;
   }
-  .ads-fluid .ads .ad_text {
+  .ad-fluid .ad .ad_text {
     padding-left: 80px;
   }
-  .ads-fluid .ads .ad_text:before {
+  .ad-fluid .ad .ad_text:before {
     top: 15%;
     left: 10px;
   }
@@ -819,16 +819,16 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
     width: 100%;
     margin-bottom: 20px;
   }
-  .ads-fluid {
+  .ad-fluid {
     padding: 50px 20px;
   }
-  .ads-fluid .ads {
+  .ad-fluid .ad {
     margin-bottom: 20px;
   }
-  .ads-fluid .ads .ad_text {
+  .ad-fluid .ad .ad_text {
     padding-left: 80px;
   }
-  .ads-fluid .ads .ad_text:before {
+  .ad-fluid .ad .ad_text:before {
     top: 15%;
     left: 10px;
   }
@@ -943,16 +943,16 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
     left: 44%;
     top: -19%;
   }
-  .ads-fluid {
+  .ad-fluid {
     padding: 50px 20px;
   }
-  .ads-fluid .ads {
+  .ad-fluid .ad {
     margin-bottom: 20px;
   }
-  .ads-fluid .ads .ad_text {
+  .ad-fluid .ad .ad_text {
     padding-left: 80px;
   }
-  .ads-fluid .ads .ad_text:before {
+  .ad-fluid .ad .ad_text:before {
     top: 15%;
     left: 10px;
   }
@@ -1005,13 +1005,13 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   .top-fluid .top-container .powered {
     letter-spacing: 6px;
   }
-  .ads-fluid {
+  .ad-fluid {
     padding: 50px 20px;
   }
-  .ads-fluid .ads .ad_text {
+  .ad-fluid .ad .ad_text {
     padding-left: 80px;
   }
-  .ads-fluid .ads .ad_text:before {
+  .ad-fluid .ad .ad_text:before {
     top: 15%;
     left: 10px;
   }
