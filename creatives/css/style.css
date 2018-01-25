@@ -829,6 +829,24 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
     top: 15%;
     left: 10px;
   }
+  .phone-fluid {
+    padding: 20px 0;
+  }
+  .phone-fluid .phone-container .qualities {
+    padding: 0;
+  }
+  .phone-fluid .phone-container .qualities .tag1 span {
+    padding-right: 25px;
+  }
+  .phone-fluid .phone-container .qualities .tag2 span {
+    padding-right: 100px;
+  }
+  .phone-fluid .phone-container .qualities .tag3 span {
+    padding-right: 36px;
+  }
+  .team-fluid .team-container .teammates {
+    margin-bottom: 80px;
+  }
   .contact-fluid .contact-container .contact_us input {
     width: 100%;
   }
@@ -935,11 +953,8 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
     top: 15%;
     left: 10px;
   }
-  .phone-fluid .phone-container .qualities {
-    padding: 0;
-  }
-  .phone-fluid .phone-container .photo-phone {
-    display: none;
+  .team-fluid .team-container .teammates {
+    margin-bottom: 80px;
   }
   .contact-fluid .contact-container .contact_us input {
     width: 100%;
@@ -996,6 +1011,9 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
+  .team-fluid .team-container .teammates {
+    margin-bottom: 80px;
+  }
   .team-fluid .team-container .teammates .description {
     width: 180px;
     left: 16px;
@@ -1006,5 +1024,8 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   }
   .team-fluid .team-container .teammates .description .position {
     font-size: 14px;
+  }
+  .contact-fluid .contact-container .contact_us input[type="e-mail"] {
+    margin: 20px 3.65%;
   }
 }
