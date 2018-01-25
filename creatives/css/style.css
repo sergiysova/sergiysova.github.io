@@ -591,13 +591,26 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   margin: 20px 4.65%;
 }
 .contact-fluid .contact-container .contact_us input[type="submit"] {
-  background-color: #11749e;
   width: 15%;
   border: none;
   font-family: 'Montserrat Regular', Sans-Serif;
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 2px;
+  background: -moz-linear-gradient(351deg, #1cbbff 0%, #008080 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #1cbbff), color-stop(100%, #008080));
+  /* safari4+,chrome */
+  background: -webkit-linear-gradient(351deg, #1cbbff 0%, #008080 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(351deg, #1cbbff 0%, #008080 100%);
+  /* opera 11.10+ */
+  background: -ms-linear-gradient(351deg, #1cbbff 0%, #008080 100%);
+  /* ie10+ */
+  background: linear-gradient(99deg, #1cbbff 0%, #008080 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1CBBFF', endColorstr='#008080', GradientType=1);
+  /* ie6-9 */
 }
 .contact-fluid .contact-container .contact_us textarea {
   background: none;

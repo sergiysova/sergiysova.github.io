@@ -773,13 +773,19 @@ header.collapsed{
 			}
 
 			input[type="submit"]{
-				background-color:@blue;
 				width: 15%;
 				border: none;
 				font-family: 'Montserrat Regular', Sans-Serif;
 				text-transform: uppercase;
 				font-size: 18px;
     			letter-spacing: 2px;
+    			background: -moz-linear-gradient(351deg, rgba(28,187,255,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+				background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(28,187,255,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(351deg, rgba(28,187,255,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(351deg, rgba(28,187,255,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(351deg, rgba(28,187,255,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
+background: linear-gradient(99deg, rgba(28,187,255,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1CBBFF', endColorstr='#008080',GradientType=1 ); /* ie6-9 */
 
     			
 				
