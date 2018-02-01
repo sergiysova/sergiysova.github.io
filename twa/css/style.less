@@ -1,0 +1,946 @@
+/*============    ШРИФТЫ    ===========*/
+
+
+
+@font-face {
+    font-family: 'PlayfairDisplayRegular';
+    src: url('../fonts/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplayBold';
+    src: url('../fonts/PlayfairDisplay-Bold.eot');
+    src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Bold.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/RobotoRegular.woff") format("woff"),
+		url("../fonts/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RobotoBold";
+	src: url("../fonts/RobotoBold.eot");
+	src: url("../fonts/RobotoBold.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/RobotoBold.woff") format("woff"),
+		url("../fonts/RobotoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+
+.subtitle{
+	font-family: "RobotoRegular";
+	font-size: 24px;
+	
+}
+// .col-sm-3,.col-md-3{
+// 	padding: 0;
+// }
+
+.links-fixed{
+	position: fixed;
+	transform: rotate(270deg);
+	right: -70px;
+	top: 45%;
+		.text{
+		font-family: "PlayfairDisplayRegular" ;
+		font-size: 13px;
+		text-transform: uppercase;
+		color: rgb(54,54,54);
+		display: inline-block;
+		
+		}
+		.socials{
+			display: inline-block;
+			width: 18px;
+			height: 18px;
+			background-image: url("../img/social_icons.png");
+			margin-left: 20px;
+		}
+		.fb{
+			background-position: left;
+		}
+		.inst{
+			background-position: right;
+		}
+}
+
+header{
+	padding: 50px 100px 0;
+	.container-fluid{
+		.logo_wrap{
+			img{
+				width: 120px;
+			}
+		}
+		.language{
+			position: relative;
+			&:before{
+				content: "";
+				display: block;
+				width: 2px;
+				height: 140%;
+    			top: -5px;
+    			background-color: rgb(225,225,225);
+				position: absolute;
+				left: -20px;
+			}
+			select{
+				border: none;
+
+				&:focus,&:active{
+					outline: none;
+				}
+
+				option{
+					
+				}
+			}
+		}
+	}
+}
+.top-fluid{
+	margin-top: -80px;
+	padding-bottom: 60px;
+	.top-container{
+		.title-wrap{
+			.subtitle{
+				
+				letter-spacing: 10px;
+				margin-top: 100px;
+			}
+			.title{
+				font-family: "PlayfairDisplayBold";
+				font-size: 86px;
+				line-height: 160px;
+				margin-top: 70px;
+				.violet{
+					color: rgb(97,109,167);
+				}
+			}
+		}
+
+		.phone-wrap{
+			height: 200px;
+			
+		}
+
+	}
+
+	.scroll-down{
+				width: 360px;
+				height: 150px;
+				position: absolute;
+				right: 0;
+				bottom: 100px;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				font-family: "RobotoBold";
+				font-size: 25px;
+				line-height: 48px;
+				-webkit-box-shadow: 0px 0px 26px 3px rgba(0,0,0,0.55);
+				-moz-box-shadow: 0px 0px 26px 3px rgba(0,0,0,0.55);
+				box-shadow: 0px 0px 26px 3px rgba(0,0,0,0.55);
+				cursor: pointer;
+
+				.scroll-text{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					height: 100%;
+					width: 75%;
+					background-color: rgb(0,0,0);
+					color: rgb(255,255,255);
+					text-align: center;
+					
+
+				}
+				.scroll-arrow{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					background-color: rgb(255,255,255);
+					color: rgb(243,116,90);
+					height: 100%;
+					width: 25%;
+					
+				p{
+				font-size: 36px;
+			}
+				
+		}
+	}
+}
+.services-fluid{
+	padding: 60px 0 0;
+	background-color: rgb(240,245,249);
+	.services-container{
+		.subtitle{
+			font-size: 12px;
+			text-align: right;
+			color: rgb(161,161,161);
+			letter-spacing: 3px;
+		}
+		.box-title{
+			font-family: "PlayfairDisplayBold";
+			font-size: 45px;
+			text-align: center;
+		}
+		.line{
+			margin-top: 60px;
+		}
+		.services-row{
+			position: relative;
+
+			bottom: -65px;
+			.service-text{
+				p{
+					font-family: "RobotoRegular";
+					font-size: 17px;
+					line-height: 28px;
+					color: rgb(161,161,161);
+					text-align: left;
+				}
+			}
+
+			.service{
+				.service-img{
+					margin: 0 auto;
+					width: 270px;
+					overflow-x: hidden;
+					img{
+						margin-left: -110px;
+					}
+				}
+				.description{
+					font-family: "PlayfairDisplayBold";
+					text-transform: uppercase;
+					font-size: 22px;
+					color: #000000;
+					position: absolute;
+					bottom: -90px;
+				}
+			}
+
+			.service2{
+				-webkit-box-shadow: 0px 5px 26px 4px rgba(0,0,0,0.2);
+				-moz-box-shadow: 0px 5px 26px 4px rgba(0,0,0,0.2);
+				box-shadow: 0px 5px 26px 4px rgba(0,0,0,0.2);
+				.description{
+					font-size: 30px;
+					color: rgb(242,108,79);
+					left: 18%;
+				}
+			}
+		}
+
+
+		
+	}
+}
+
+.apps-fluid{
+	padding-bottom: 160px;
+	.apps{
+			margin-top: 200px;
+			.h3{
+				font-family: "PlayfairDisplayBold";
+				font-size: 30px;
+				text-align: left;
+			}
+			.app{
+				position: relative;
+				margin: auto;
+				.about{
+					position: absolute;
+					margin: 20px 0;
+					.description{
+						font-family: "RobotoRegular";
+						font-size: 12px;
+						color: rgb(161,161,161);
+						text-transform: uppercase;
+						letter-spacing: 3px;
+					}
+
+					.status{
+						font-family: "RobotoBold";
+						font-size: 12px;
+						color: rgb(0,0,0);
+						text-transform: uppercase;
+						text-decoration: underline;
+					}
+				}
+
+				&:after{
+					position: absolute;
+					content: "";
+					display: block;
+					height: 270px;
+					width: 430px;
+					background-color: rgb(248,248,248);
+				}
+				
+			}
+
+			.app1{
+				margin-top: 80px;
+				&:before{
+					position: absolute;
+					content: "PLUS DE 20K DOWNLOADS !";
+					font-family: "PlayfairDisplayBold";
+					letter-spacing: 4px;
+					font-size: 12px;
+					color: rgb(242,108,79);
+					transform: rotate(270deg);
+					right: 95px;
+    				top: 214px;
+				}
+				&:after{
+					top: 140px;
+    				left: -160px;
+    				z-index: -1;
+				}
+				.about{
+					text-align: left;
+    				bottom: -20px;
+    				left: -163px;
+
+				}
+			}
+
+			.app2{
+				margin-top: 350px;
+				text-align: right;
+				right: -200px;
+
+				&:after{
+					width: 66%;
+    				height: 135%;
+    				top: 23px;
+    				left: auto;
+    				right: 126px;
+    				z-index: -1;
+				}
+				.about{
+					text-align: left;
+					bottom: -80px;
+    				left: -16px;
+				}
+			}
+
+			.app3{
+				margin-top: 200px;
+				text-align: right;
+
+				&:after{
+					width: 70%;
+    				height: 123%;
+    				top: -47px;
+    				left: auto;
+    				z-index: -1;
+    				right: 180px	
+				}
+				.about{
+					text-align: left;
+					bottom: -80px;
+    				left: -16px;
+				}
+			}
+
+			.app4{
+				margin-top: 350px;
+				text-align: right;
+				
+				&:before{
+					position: absolute;
+					content: "PLUS DE 50 ARTICLES !";
+					font-family: "PlayfairDisplayBold";
+					letter-spacing: 4px;
+					font-size: 12px;
+					color: rgb(161,161,161);
+					transform: rotate(270deg);
+					right: -140px;
+    				top: 110px;
+				}
+				&:after{
+					width: 80%;
+    				height: 84%;
+    				top: 110px;
+    				left: auto;
+    				z-index: -1;
+    				right: 34px;	
+				}
+				.about{
+					text-align: left;
+					bottom: -185px;
+    				left: 75px;
+    				.description{
+    					letter-spacing: 1px;
+    				}
+				}
+			}
+		}
+}
+
+.lap-fluid{
+	margin-top: 150px;
+	background-image: url("../img/laptop_bg.png");
+	background-size: cover;
+	padding: 0;
+	margin:0 100px;
+	.feedback{
+		padding: 40px 32px 30px 44px;
+		width: 100%;
+		background-color: rgb(46,49,146);
+		text-align: right;
+		margin-left: 15px;
+
+		img{
+					}
+		.feedback-title{
+			font-family: "PlayfairDisplayBold";
+			font-size: 24px;
+			color: #ffffff;
+			line-height: 80px;
+		}
+
+		.feedback-text{
+			font-family: "RobotoRegular";
+			font-size: 15px;
+			color: rgb(161,161,161);
+			line-height: 51px;
+		}
+	}
+}
+
+.swipe-fluid{
+	padding: 110px 0;
+	.swipe-container{
+		.quote{
+			font-family:"PlayfairDisplayRegular" ;
+			font-size: 40px;
+			color: rgb(137,137,137);
+			line-height: 30px;
+			text-align: center;
+		}
+		.subtitle{
+			font-family: "RobotoRegular";
+			font-size: 18px;
+			text-transform: uppercase;
+			color: rgb(96,109,166);
+			line-height: 48px;
+			text-align: center;
+			margin-top: 30px;
+			margin-bottom: 60px;
+			letter-spacing: 4px;
+		}
+
+		.feature{
+			padding-top: 50px;
+			padding-left: 100px;
+			position: relative;
+			.feature-name{
+				font-family: "PlayfairDisplayBold";
+				font-size: 18px;
+				color: #000000;
+				text-align: left;
+
+			}
+			.feature-subname{
+				font-family: "RobotoRegular";
+				font-size: 12px;
+				color: rgb(96,109,166);
+				text-align: left;	
+
+			}
+			&:before{
+				
+				font-family: "MontserratBold" ;
+				font-size: 72px;
+				color: rgb(204,204,204);
+				position: absolute;
+				transform: rotate(270deg);
+				top:-6px;
+				left: 20px;
+			}
+
+			&:after{
+				content: "";
+				display: block;
+				width: 50px;
+				height: 2px;
+				background-color: rgb(134,158,227);
+				position: absolute;
+				top: 30px;
+				left: 100px;
+			}
+
+			
+		}
+			.feature1{
+				&:before{
+					content: "T";
+				}
+			}
+			.feature2{
+				&:before{
+					content: "W";
+					top: -20px;
+				}
+			}
+			.feature3{
+				&:before{
+					content: "A";
+
+				}
+			}
+	}
+
+}
+.contact-fluid{
+	.contact-container{
+		padding-left: 120px;
+		padding-top: 120px;
+		max-width: 1500px;
+		width: 90%;
+		margin-left: -15px;
+		background-image: url("../img/contact-bg.png");
+		height: 680px;
+		background-size: cover;	
+
+		.contact_us{
+			.form-title{
+				font-family: "PlayfairDisplayBold";
+				font-size: 30px;
+				text-align: left;
+				color: rgb(242,108,79);
+				margin-bottom: 80px;
+			}
+
+			input{
+				display: inline-block;
+				background-color: #000000;
+				border: none;
+    			outline: none;
+    			color: #ffffff;
+    			font-family: "RobotoBold";
+    			padding: 15px 30px;
+				margin-right: 5%;
+				width: 16%;
+
+    			&:focus{
+    				outline: none;
+    			}
+
+    			&::-webkit-input-placeholder {
+					color: #ffffff;
+    				font-family: "RobotoBold";
+				}
+				&::-moz-placeholder          {
+					color: #ffffff;
+    				font-family: "RobotoBold";
+				}/* Firefox 19+ */
+				&:-moz-placeholder           {
+					color: #ffffff;
+    				font-family: "RobotoBold";
+				}
+				&:-ms-input-placeholder{
+					color: #ffffff;
+    				font-family: "RobotoBold";
+				}
+
+			}
+
+			input[type="email"]{
+				width: 24%;
+			}
+
+			.checkboxes-title{
+				font-family:"PlayfairDisplayRegular" ;
+				font-size: 30px;
+				color: #000000;
+				margin-top: 80px;
+				margin-bottom: 40px;
+
+				
+			}
+
+			.date-radio{
+
+				text-align: center;
+				padding-top: 20px;
+				margin-right: 12%;
+				background-color: #ffffff;
+				height: 100px;
+				width: 100px;
+				border-radius: 50%;
+				border: 2px solid transparent;
+				display: inline-block;
+
+				.radio-text{
+					font-family: "RobotoRegular";
+					font-size: 14px;
+					text-transform: uppercase;
+					color: #000000;
+
+				}
+				.date{
+					font-family:"PlayfairDisplayRegular" ;
+					font-size: 17px;
+					color: #000000;
+					text-transform: uppercase;
+
+				}
+				input[type="radio"]{
+					display: none;
+				}
+
+			}
+			.date-radio.checked{
+				border-color: rgb(0,0,0);
+			}
+		}
+	}
+
+	.sponsors-container{
+		margin-bottom: 200px;
+		.sponsor-wrap{
+			width: 100%;
+			max-width: 170px;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin-top: -20px;
+			background-color: #ffffff;
+			-webkit-box-shadow: 0px 5px 26px 4px rgba(0,0,0,0.2);
+				-moz-box-shadow: 0px 5px 26px 4px rgba(0,0,0,0.2);
+				box-shadow: 0px 5px 26px 4px rgba(0,0,0,0.2);
+			img{
+				text-align: center;
+			}
+		}
+	}
+}
+
+.instagram-fluid{
+	.insta-title{
+		font-family: "PlayfairDisplayBold" ;
+		font-size: 18px;
+		text-transform: uppercase;
+		color: rgb(0,0,0);
+		text-align: center;
+
+	}
+	.profile{
+		font-family: "RobotoRgular";
+		font-size: 15px;
+		color: rgb(161,161,161);
+		text-align: center;
+		vertical-align: middle;
+
+		&:before{
+			content: "";
+			display: inline-block;
+			width: 18px;
+			height: 18px;
+			background-image: url("../img/social_icons.png");
+			background-position: right;
+			margin-right: 20px;
+    		margin-bottom: -4px;
+			
+
+		}
+	}
+
+	.tags{
+		font-family: "PlayfairDisplayBold" ;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: rgb(161,161,161);
+		text-align: center;
+	}
+	.colage{
+		display: flex;
+		flex-direction: row;
+		margin-top: 140px;
+		.photo{
+		width: 25%;
+		display: inline-block;
+		overflow-x: hidden;
+		img{
+			width: 100%;
+		}
+	}
+	}
+	
+}
+
+.footer-fluid{
+	padding: 70px;
+
+	.rights{
+		text-align: left;
+		img{
+			width: 30px;
+			margin-bottom: 30px;
+			
+
+		}
+		p{
+			font-family: "robotoRegular";
+			font-size: 13px;
+			color: rgb(161,161,161);
+
+		}
+	}
+
+	.adress{
+		text-align: left;
+		p,a{
+			font-family: "RobotoRegular";
+			font-size: 13px;
+			color: rgb(54,54,54);
+		}
+		a{	
+			margin-bottom: 10px;
+			display: inherit;
+			&:focus{
+				color: rgb(54,54,54);
+				text-decoration: none;
+			}
+			&:hover{
+				color: rgb(54,54,54);
+				text-decoration: none;
+			}
+		}
+
+		
+	}
+
+	.send_email{
+		font-family: "PlayfairDisplayBold" ;
+		font-size: 18px;
+		text-transform: uppercase;
+		margin-top: 0;
+		
+	}
+	.subtitle{
+		font-family: "RobotoRegular";
+		font-size: 13px;
+		color: rgb(161,161,161);
+		margin: 24px 0;
+	}
+	.email{
+		position: relative;
+		input[type="email"]{
+			width: 90%;
+			background-color: rgb(241,248,252);
+			display: inline-block;
+			font-family: "RobotoRegular";
+			font-size: 13px;
+			color: rgb(161,161,161);
+			padding: 15px 40px 15px 30px;
+			border: none;
+			outline: none;
+			border-radius: 25px;
+			&::-webkit-input-placeholder {
+				font-family: "RobotoRegular";
+				font-size: 13px;
+				color: rgb(161,161,161);
+			}
+			&::-moz-placeholder          {
+				font-family: "RobotoRegular";
+				font-size: 13px;
+				color: rgb(161,161,161);
+			}/* Firefox 19+ */
+			&:-moz-placeholder           {
+				font-family: "RobotoRegular";
+				font-size: 13px;
+				color: rgb(161,161,161);
+			}
+			&:-ms-input-placeholder{
+				font-family: "RobotoRegular";
+				font-size: 13px;
+				color: rgb(161,161,161);
+			}
+		}
+		input[type="submit"]{
+			width: auto;
+			background-color: rgb(241,248,252);
+			display: inline-block;
+			font-family: "RobotoRegular";
+			font-size: 35px;
+			color: rgb(0,0,0);
+			border: none;
+			outline: none;
+			position: absolute;
+			line-height: 36px;
+    		right: 50px;
+		}
+	}
+	.links{
+		.text{
+		font-family: "PlayfairDisplayRegular" ;
+		font-size: 13px;
+		text-transform: uppercase;
+		color: rgb(54,54,54);
+		display: inline-block;
+		
+		}
+		.socials{
+			display: inline-block;
+			width: 18px;
+			height: 18px;
+			background-image: url("../img/social_icons.png");
+			margin-left: 20px;
+		}
+		.fb{
+			background-position: left;
+		}
+		.inst{
+			background-position: right;
+		}
+	}
+}
+
+
+
+
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ПОДВАЛ    ===========*/
+
+
+
+/*============    	АДАПТИВ    ===========*/
+@media(max-width:1550px)  {
+	.top-fluid{
+		margin-top: 0px;
+		.top-container{
+			.title-wrap{
+				.title{
+					margin-top: 0;
+					line-height: 100px;
+				}
+				.subtitle{
+					margin-top: 30px;
+				}
+			}
+			.phone-wrap{
+				text-align: left;
+				img{
+					width: 100%;
+				}
+			}
+		}
+
+		
+	}
+
+	.apps-fluid{
+	
+		.apps{
+			.app1{
+				left: 80px;
+			}
+			.app2{
+				right: 0;
+			}
+		}
+	}
+
+	.contact-fluid{
+		.contact-container{
+			padding-left: 120px;
+			padding-top: 120px;
+			max-width: 1500px;
+			width: 90%;
+			margin-left: -15px;
+			background-image: url("../img/contact-bg.png");
+			height: 680px;
+			background-size: cover;	
+
+			.contact_us{
+				.date-radio{
+					margin-right: 9%;
+				}
+			}
+		}
+	}
+}
+
+@media(min-width:0px) and (max-width:320px) {
+	
+}
+
+@media(min-width:321px) and (max-width:480px) {
+	
+}
+
+@media(min-width:481px) and (max-width:768px) {
+	
+}
+
+@media(min-width:769px) and (max-width:992px) {
+	
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+	
+}
+
+
+
