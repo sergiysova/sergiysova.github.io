@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed');
 /*============    fonts    ===========*/
 @font-face {
   font-family: 'Gotham Book';
@@ -238,8 +237,9 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   bottom: 100px;
 }
 .top-fluid .top-container .scroll-down .scroll_text {
-  font-family: "Open Sans Regular";
+  font-family: "RobotoCondensedRegular";
   font-size: 12px;
+  letter-spacing: 1px;
 }
 .top-fluid .top-container .scroll-down .scroll_but {
   background: none;
@@ -575,22 +575,22 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
 .contact-fluid .contact-container .contact_us input::-webkit-input-placeholder {
   color: #ffffff;
   text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  transition: text-indent 1s ease;
 }
 .contact-fluid .contact-container .contact_us input::-moz-placeholder {
   color: #ffffff;
   text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  transition: text-indent 1s ease;
 }
 .contact-fluid .contact-container .contact_us input:focus::-webkit-input-placeholder {
   text-indent: 1000px;
-  transition: text-indent 0.3s ease;
+  transition: text-indent 1s ease;
 }
 .contact-fluid .contact-container .contact_us input:focus::-moz-input-placeholder {
   text-indent: 1000px;
-  transition: text-indent 0.3s ease;
+  transition: text-indent 1s ease;
 }
-.contact-fluid .contact-container .contact_us input[type="e-mail"] {
+.contact-fluid .contact-container .contact_us input[type="email"] {
   margin: 20px 4.65%;
 }
 .contact-fluid .contact-container .contact_us input[type="submit"] {
@@ -610,7 +610,7 @@ header.collapsed .navbar .mainmenu .menu-item:hover:after {
   /* opera 11.10+ */
   background: -ms-linear-gradient(351deg, #1cbbff 0%, #008080 100%);
   /* ie10+ */
-  background: linear-gradient(99deg, #1cbbff 0%, #008080 100%);
+  background: linear-gradient(0deg, #1cbbff 0%, #008080 100%);
   /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1CBBFF', endColorstr='#008080', GradientType=1);
   /* ie6-9 */

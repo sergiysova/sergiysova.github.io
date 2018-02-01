@@ -1,0 +1,749 @@
+/*============    ШРИФТЫ    ===========*/
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url('../fonts/PlayfairDisplay-Regular.eot');
+  src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'), url('../fonts/PlayfairDisplay-Regular.woff') format('woff'), url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PlayfairDisplayBold';
+  src: url('../fonts/PlayfairDisplay-Bold.eot');
+  src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'), url('../fonts/PlayfairDisplay-Bold.woff') format('woff'), url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('../fonts/Montserrat-Bold.eot');
+  src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+.subtitle {
+  font-family: "RobotoRegular";
+  font-size: 24px;
+}
+.links-fixed {
+  position: fixed;
+  transform: rotate(270deg);
+  right: -70px;
+  top: 45%;
+}
+.links-fixed .text {
+  font-family: "PlayfairDisplayRegular";
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #363636;
+  display: inline-block;
+}
+.links-fixed .socials {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/social_icons.png");
+  margin-left: 20px;
+}
+.links-fixed .fb {
+  background-position: left;
+}
+.links-fixed .inst {
+  background-position: right;
+}
+header {
+  padding: 50px 100px 0;
+}
+header .container-fluid .logo_wrap img {
+  width: 120px;
+}
+header .container-fluid .language {
+  position: relative;
+}
+header .container-fluid .language:before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 140%;
+  top: -5px;
+  background-color: #e1e1e1;
+  position: absolute;
+  left: -20px;
+}
+header .container-fluid .language select {
+  border: none;
+}
+header .container-fluid .language select:focus,
+header .container-fluid .language select:active {
+  outline: none;
+}
+.top-fluid {
+  margin-top: -80px;
+  padding-bottom: 60px;
+}
+.top-fluid .top-container .title-wrap .subtitle {
+  letter-spacing: 10px;
+  margin-top: 100px;
+}
+.top-fluid .top-container .title-wrap .title {
+  font-family: "PlayfairDisplayBold";
+  font-size: 86px;
+  line-height: 160px;
+  margin-top: 70px;
+}
+.top-fluid .top-container .title-wrap .title .violet {
+  color: #616da7;
+}
+.top-fluid .top-container .phone-wrap {
+  height: 200px;
+}
+.top-fluid .scroll-down {
+  width: 360px;
+  height: 150px;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "RobotoBold";
+  font-size: 25px;
+  line-height: 48px;
+  -webkit-box-shadow: 0px 0px 26px 3px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 26px 3px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 26px 3px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+.top-fluid .scroll-down .scroll-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 75%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+.top-fluid .scroll-down .scroll-arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #f3745a;
+  height: 100%;
+  width: 25%;
+}
+.top-fluid .scroll-down .scroll-arrow p {
+  font-size: 36px;
+}
+.services-fluid {
+  padding: 60px 0 0;
+  background-color: #f0f5f9;
+}
+.services-fluid .services-container .subtitle {
+  font-size: 12px;
+  text-align: right;
+  color: #a1a1a1;
+  letter-spacing: 3px;
+}
+.services-fluid .services-container .box-title {
+  font-family: "PlayfairDisplayBold";
+  font-size: 45px;
+  text-align: center;
+}
+.services-fluid .services-container .line {
+  margin-top: 60px;
+}
+.services-fluid .services-container .services-row {
+  position: relative;
+  bottom: -65px;
+}
+.services-fluid .services-container .services-row .service-text p {
+  font-family: "RobotoRegular";
+  font-size: 17px;
+  line-height: 28px;
+  color: #a1a1a1;
+  text-align: left;
+}
+.services-fluid .services-container .services-row .service .service-img {
+  margin: 0 auto;
+  width: 270px;
+  overflow-x: hidden;
+}
+.services-fluid .services-container .services-row .service .service-img img {
+  margin-left: -110px;
+}
+.services-fluid .services-container .services-row .service .description {
+  font-family: "PlayfairDisplayBold";
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #000000;
+  position: absolute;
+  bottom: -90px;
+}
+.services-fluid .services-container .services-row .service2 {
+  -webkit-box-shadow: 0px 5px 26px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 26px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 26px 4px rgba(0, 0, 0, 0.2);
+}
+.services-fluid .services-container .services-row .service2 .description {
+  font-size: 30px;
+  color: #f26c4f;
+  left: 18%;
+}
+.apps-fluid {
+  padding-bottom: 160px;
+}
+.apps-fluid .apps {
+  margin-top: 200px;
+}
+.apps-fluid .apps .h3 {
+  font-family: "PlayfairDisplayBold";
+  font-size: 30px;
+  text-align: left;
+}
+.apps-fluid .apps .app {
+  position: relative;
+  margin: auto;
+}
+.apps-fluid .apps .app .about {
+  position: absolute;
+  margin: 20px 0;
+}
+.apps-fluid .apps .app .about .description {
+  font-family: "RobotoRegular";
+  font-size: 12px;
+  color: #a1a1a1;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.apps-fluid .apps .app .about .status {
+  font-family: "RobotoBold";
+  font-size: 12px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.apps-fluid .apps .app:after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 270px;
+  width: 430px;
+  background-color: #f8f8f8;
+}
+.apps-fluid .apps .app1 {
+  margin-top: 80px;
+}
+.apps-fluid .apps .app1:before {
+  position: absolute;
+  content: "PLUS DE 20K DOWNLOADS !";
+  font-family: "PlayfairDisplayBold";
+  letter-spacing: 4px;
+  font-size: 12px;
+  color: #f26c4f;
+  transform: rotate(270deg);
+  right: 95px;
+  top: 214px;
+}
+.apps-fluid .apps .app1:after {
+  top: 140px;
+  left: -160px;
+  z-index: -1;
+}
+.apps-fluid .apps .app1 .about {
+  text-align: left;
+  bottom: -20px;
+  left: -163px;
+}
+.apps-fluid .apps .app2 {
+  margin-top: 350px;
+  text-align: right;
+  right: -200px;
+}
+.apps-fluid .apps .app2:after {
+  width: 66%;
+  height: 135%;
+  top: 23px;
+  left: auto;
+  right: 126px;
+  z-index: -1;
+}
+.apps-fluid .apps .app2 .about {
+  text-align: left;
+  bottom: -80px;
+  left: -16px;
+}
+.apps-fluid .apps .app3 {
+  margin-top: 200px;
+  text-align: right;
+}
+.apps-fluid .apps .app3:after {
+  width: 70%;
+  height: 123%;
+  top: -47px;
+  left: auto;
+  z-index: -1;
+  right: 180px;
+}
+.apps-fluid .apps .app3 .about {
+  text-align: left;
+  bottom: -80px;
+  left: -16px;
+}
+.apps-fluid .apps .app4 {
+  margin-top: 350px;
+  text-align: right;
+}
+.apps-fluid .apps .app4:before {
+  position: absolute;
+  content: "PLUS DE 50 ARTICLES !";
+  font-family: "PlayfairDisplayBold";
+  letter-spacing: 4px;
+  font-size: 12px;
+  color: #a1a1a1;
+  transform: rotate(270deg);
+  right: -140px;
+  top: 110px;
+}
+.apps-fluid .apps .app4:after {
+  width: 80%;
+  height: 84%;
+  top: 110px;
+  left: auto;
+  z-index: -1;
+  right: 34px;
+}
+.apps-fluid .apps .app4 .about {
+  text-align: left;
+  bottom: -185px;
+  left: 75px;
+}
+.apps-fluid .apps .app4 .about .description {
+  letter-spacing: 1px;
+}
+.lap-fluid {
+  margin-top: 150px;
+  background-image: url("../img/laptop_bg.png");
+  background-size: cover;
+  padding: 0;
+  margin: 0 100px;
+}
+.lap-fluid .feedback {
+  padding: 40px 32px 30px 44px;
+  width: 100%;
+  background-color: #2e3192;
+  text-align: right;
+  margin-left: 15px;
+}
+.lap-fluid .feedback .feedback-title {
+  font-family: "PlayfairDisplayBold";
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 80px;
+}
+.lap-fluid .feedback .feedback-text {
+  font-family: "RobotoRegular";
+  font-size: 15px;
+  color: #a1a1a1;
+  line-height: 51px;
+}
+.swipe-fluid {
+  padding: 110px 0;
+}
+.swipe-fluid .swipe-container .quote {
+  font-family: "PlayfairDisplayRegular";
+  font-size: 40px;
+  color: #898989;
+  line-height: 30px;
+  text-align: center;
+}
+.swipe-fluid .swipe-container .subtitle {
+  font-family: "RobotoRegular";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #606da6;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  letter-spacing: 4px;
+}
+.swipe-fluid .swipe-container .feature {
+  padding-top: 50px;
+  padding-left: 100px;
+  position: relative;
+}
+.swipe-fluid .swipe-container .feature .feature-name {
+  font-family: "PlayfairDisplayBold";
+  font-size: 18px;
+  color: #000000;
+  text-align: left;
+}
+.swipe-fluid .swipe-container .feature .feature-subname {
+  font-family: "RobotoRegular";
+  font-size: 12px;
+  color: #606da6;
+  text-align: left;
+}
+.swipe-fluid .swipe-container .feature:before {
+  font-family: "MontserratBold";
+  font-size: 72px;
+  color: #cccccc;
+  position: absolute;
+  transform: rotate(270deg);
+  top: -6px;
+  left: 20px;
+}
+.swipe-fluid .swipe-container .feature:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #869ee3;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+.swipe-fluid .swipe-container .feature1:before {
+  content: "T";
+}
+.swipe-fluid .swipe-container .feature2:before {
+  content: "W";
+  top: -20px;
+}
+.swipe-fluid .swipe-container .feature3:before {
+  content: "A";
+}
+.contact-fluid .contact-container {
+  padding-left: 120px;
+  padding-top: 120px;
+  max-width: 1500px;
+  width: 90%;
+  margin-left: -15px;
+  background-image: url("../img/contact-bg.png");
+  height: 680px;
+  background-size: cover;
+}
+.contact-fluid .contact-container .contact_us .form-title {
+  font-family: "PlayfairDisplayBold";
+  font-size: 30px;
+  text-align: left;
+  color: #f26c4f;
+  margin-bottom: 80px;
+}
+.contact-fluid .contact-container .contact_us input {
+  display: inline-block;
+  background-color: #000000;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: "RobotoBold";
+  padding: 15px 30px;
+  margin-right: 5%;
+  width: 16%;
+  /* Firefox 19+ */
+}
+.contact-fluid .contact-container .contact_us input:focus {
+  outline: none;
+}
+.contact-fluid .contact-container .contact_us input::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: "RobotoBold";
+}
+.contact-fluid .contact-container .contact_us input::-moz-placeholder {
+  color: #ffffff;
+  font-family: "RobotoBold";
+}
+.contact-fluid .contact-container .contact_us input:-moz-placeholder {
+  color: #ffffff;
+  font-family: "RobotoBold";
+}
+.contact-fluid .contact-container .contact_us input:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: "RobotoBold";
+}
+.contact-fluid .contact-container .contact_us input[type="email"] {
+  width: 24%;
+}
+.contact-fluid .contact-container .contact_us .checkboxes-title {
+  font-family: "PlayfairDisplayRegular";
+  font-size: 30px;
+  color: #000000;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.contact-fluid .contact-container .contact_us .date-radio {
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 12%;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  display: inline-block;
+}
+.contact-fluid .contact-container .contact_us .date-radio .radio-text {
+  font-family: "RobotoRegular";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.contact-fluid .contact-container .contact_us .date-radio .date {
+  font-family: "PlayfairDisplayRegular";
+  font-size: 17px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.contact-fluid .contact-container .contact_us .date-radio input[type="radio"] {
+  display: none;
+}
+.contact-fluid .contact-container .contact_us .date-radio.checked {
+  border-color: #000000;
+}
+.contact-fluid .sponsors-container {
+  margin-bottom: 200px;
+}
+.contact-fluid .sponsors-container .sponsor-wrap {
+  width: 100%;
+  max-width: 170px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 26px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 26px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 26px 4px rgba(0, 0, 0, 0.2);
+}
+.contact-fluid .sponsors-container .sponsor-wrap img {
+  text-align: center;
+}
+.instagram-fluid .insta-title {
+  font-family: "PlayfairDisplayBold";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+.instagram-fluid .profile {
+  font-family: "RobotoRgular";
+  font-size: 15px;
+  color: #a1a1a1;
+  text-align: center;
+  vertical-align: middle;
+}
+.instagram-fluid .profile:before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/social_icons.png");
+  background-position: right;
+  margin-right: 20px;
+  margin-bottom: -4px;
+}
+.instagram-fluid .tags {
+  font-family: "PlayfairDisplayBold";
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a1a1a1;
+  text-align: center;
+}
+.instagram-fluid .colage {
+  display: flex;
+  flex-direction: row;
+  margin-top: 140px;
+}
+.instagram-fluid .colage .photo {
+  width: 25%;
+  display: inline-block;
+  overflow-x: hidden;
+}
+.instagram-fluid .colage .photo img {
+  width: 100%;
+}
+.footer-fluid {
+  padding: 70px;
+}
+.footer-fluid .rights {
+  text-align: left;
+}
+.footer-fluid .rights img {
+  width: 30px;
+  margin-bottom: 30px;
+}
+.footer-fluid .rights p {
+  font-family: "robotoRegular";
+  font-size: 13px;
+  color: #a1a1a1;
+}
+.footer-fluid .adress {
+  text-align: left;
+}
+.footer-fluid .adress p,
+.footer-fluid .adress a {
+  font-family: "RobotoRegular";
+  font-size: 13px;
+  color: #363636;
+}
+.footer-fluid .adress a {
+  margin-bottom: 10px;
+  display: inherit;
+}
+.footer-fluid .adress a:focus {
+  color: #363636;
+  text-decoration: none;
+}
+.footer-fluid .adress a:hover {
+  color: #363636;
+  text-decoration: none;
+}
+.footer-fluid .send_email {
+  font-family: "PlayfairDisplayBold";
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.footer-fluid .subtitle {
+  font-family: "RobotoRegular";
+  font-size: 13px;
+  color: #a1a1a1;
+  margin: 24px 0;
+}
+.footer-fluid .email {
+  position: relative;
+}
+.footer-fluid .email input[type="email"] {
+  width: 90%;
+  background-color: #f1f8fc;
+  display: inline-block;
+  font-family: "RobotoRegular";
+  font-size: 13px;
+  color: #a1a1a1;
+  padding: 15px 40px 15px 30px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  /* Firefox 19+ */
+}
+.footer-fluid .email input[type="email"]::-webkit-input-placeholder {
+  font-family: "RobotoRegular";
+  font-size: 13px;
+  color: #a1a1a1;
+}
+.footer-fluid .email input[type="email"]::-moz-placeholder {
+  font-family: "RobotoRegular";
+  font-size: 13px;
+  color: #a1a1a1;
+}
+.footer-fluid .email input[type="email"]:-moz-placeholder {
+  font-family: "RobotoRegular";
+  font-size: 13px;
+  color: #a1a1a1;
+}
+.footer-fluid .email input[type="email"]:-ms-input-placeholder {
+  font-family: "RobotoRegular";
+  font-size: 13px;
+  color: #a1a1a1;
+}
+.footer-fluid .email input[type="submit"] {
+  width: auto;
+  background-color: #f1f8fc;
+  display: inline-block;
+  font-family: "RobotoRegular";
+  font-size: 35px;
+  color: #000000;
+  border: none;
+  outline: none;
+  position: absolute;
+  line-height: 36px;
+  right: 50px;
+}
+.footer-fluid .links .text {
+  font-family: "PlayfairDisplayRegular";
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #363636;
+  display: inline-block;
+}
+.footer-fluid .links .socials {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/social_icons.png");
+  margin-left: 20px;
+}
+.footer-fluid .links .fb {
+  background-position: left;
+}
+.footer-fluid .links .inst {
+  background-position: right;
+}
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ПОДВАЛ    ===========*/
+/*============    	АДАПТИВ    ===========*/
+@media (max-width: 1550px) {
+  .top-fluid {
+    margin-top: 0px;
+  }
+  .top-fluid .top-container .title-wrap .title {
+    margin-top: 0;
+    line-height: 100px;
+  }
+  .top-fluid .top-container .title-wrap .subtitle {
+    margin-top: 30px;
+  }
+  .top-fluid .top-container .phone-wrap {
+    text-align: left;
+  }
+  .top-fluid .top-container .phone-wrap img {
+    width: 100%;
+  }
+  .apps-fluid .apps .app1 {
+    left: 80px;
+  }
+  .apps-fluid .apps .app2 {
+    right: 0;
+  }
+  .contact-fluid .contact-container {
+    padding-left: 120px;
+    padding-top: 120px;
+    max-width: 1500px;
+    width: 90%;
+    margin-left: -15px;
+    background-image: url("../img/contact-bg.png");
+    height: 680px;
+    background-size: cover;
+  }
+  .contact-fluid .contact-container .contact_us .date-radio {
+    margin-right: 9%;
+  }
+}

@@ -61,8 +61,8 @@
     <main>
       <div class="container-fluid top-fluid">
           <div class="container top-container">
-            <h1 class="main_promo">Creatives</h1>
-            <h5 class="powered">Power by PSDfreebies.com</h5>
+            <h1 class="main_promo wow fadeInDown" data-wow-delay="1s">Creatives</h1>
+            <h5 class="powered  wow fadeInUp" data-wow-delay="1.5s">Power by PSDfreebies.com</h5>
             
             <div class="scroll-down ">
               <span class="scroll_text">Scroll Down</span>
@@ -302,10 +302,10 @@
             <h2 class="box-title">We`d like to hear about your project</h2>
 
             <form action="" class="contact_us">
-              <input class="" type="text" name="name" placeholder="name">
-              <input class="" type="e-mail" name="e-mail" placeholder="e-mail">
-              <input class="" type="tel" name="phone" placeholder="phone">
-              <textarea class="" name="message"  cols="30" rows="10" placeholder="Your message"></textarea>
+              <input class="" type="text" name="name" placeholder="name" required>
+              <input class="" type="email" name="e-mail" data-validation-email-message="adress is not correct!" placeholder="e-mail" required>
+              <input class="" type="tel" name="phone" placeholder="phone" required>
+              <textarea class="" name="message"  cols="30" rows="10" placeholder="Your message" required></textarea>
               <input type="submit" value="submit">
             </form>
           </row>
@@ -337,7 +337,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyA2fK0t0aYrk_iZ3nRn9yXR7dD7TgatOXs "></script>
     <script src="js/jquery.nicescroll.min.js"></script>
-
+    <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/bootstrap.js"></script>
     
     <script src="js/map.js"></script>
