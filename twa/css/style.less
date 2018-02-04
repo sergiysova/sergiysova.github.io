@@ -59,20 +59,21 @@
 
 /*============    ГЛАВНЫЙ ЭКРАН    ===========*/
 
+
 .subtitle{
 	font-family: "RobotoRegular";
 	font-size: 24px;
 	
+}body{
+	overflow-x: hidden;
 }
-// .col-sm-3,.col-md-3{
-// 	padding: 0;
-// }
 
 .links-fixed{
 	position: fixed;
 	transform: rotate(270deg);
 	right: -70px;
 	top: 45%;
+	z-index: 1000;
 		.text{
 		font-family: "PlayfairDisplayRegular" ;
 		font-size: 13px;
@@ -422,6 +423,11 @@ header{
 	background-size: cover;
 	padding: 0;
 	margin:0 100px;
+	.laptop{
+		img{
+			display: none;
+		}
+	}
 	.feedback{
 		padding: 40px 32px 30px 44px;
 		width: 100%;
@@ -629,10 +635,17 @@ header{
 					display: none;
 				}
 
+				
+
 			}
 			.date-radio.checked{
 				border-color: rgb(0,0,0);
 			}
+
+			input[type="submit"]{
+					width: 33%;
+    				margin: 20px 30%;
+				}
 		}
 	}
 
@@ -843,34 +856,22 @@ header{
 
 
 
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ПОДВАЛ    ===========*/
-
-
-
 /*============    	АДАПТИВ    ===========*/
 @media(max-width:1550px)  {
+
+header {
+	margin-bottom: 30px;
+	.container-fluid .logo_wrap img {
+   		width: 60px;
+	}
+}
 	.top-fluid{
 		margin-top: 0px;
 		.top-container{
 			.title-wrap{
+				img{
+					width: 15%;
+				}
 				.title{
 					margin-top: 0;
 					line-height: 100px;
@@ -882,7 +883,7 @@ header{
 			.phone-wrap{
 				text-align: left;
 				img{
-					width: 100%;
+					width: 80%;
 				}
 			}
 		}
@@ -894,13 +895,43 @@ header{
 	
 		.apps{
 			.app1{
-				left: 80px;
+				left: 120px;
+				.about{
+					bottom: -70px;
+    				left: -120px;
+				}
+				
 			}
 			.app2{
-				right: 0;
+				right: 40px;
 			}
+			.app4{
+				right: 80px;
+			}
+			
+
 		}
 	}
+	.lap-fluid{
+	
+	.feedback{
+
+		.feedback-title{
+			font-family: "PlayfairDisplayBold";
+			font-size: 24px;
+			color: #ffffff;
+			line-height: 40px;
+		}
+
+		.feedback-text{
+			font-family: "RobotoRegular";
+			font-size: 15px;
+			color: rgb(161,161,161);
+			line-height: 30px;
+		}
+	}
+}
+
 
 	.contact-fluid{
 		.contact-container{
@@ -920,26 +951,571 @@ header{
 			}
 		}
 	}
+
+	.footer-fluid{
+		.links{
+			.text{
+				display: block;
+			}
+		}
+	}
 }
 
-@media(min-width:0px) and (max-width:320px) {
+
+
+@media(max-width:1200px)  {
+
+	.top-fluid{
+		.scroll-down{
+			width: 200px;
+			height: 90px;
+			.scroll-text{
+				font-size: 16px;
+				line-height: 32px;
+			}
+		}
+	}
+	.services-fluid{
+		.services-container{
+			.line{
+				padding-left: 20px;
+			}
+			.subtitle{
+				text-align: center;
+			}
+			.services-row{
+				.service-text{
+					p{
+						font-size: 15px;
+						padding-left: 20px;
+					}
+					} 
+				.service{
+					.service-img{
+						width: 220px;
+						img{
+							margin-left: -140px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.apps-fluid{
+	
+		.apps{
+
+			.app1 {
+				.about {
+ 
+    			}
+    			&:before{
+    				right: 0;
+    			}
+			}
+			.app2{
+				right: 50px;
+				.about{
+					bottom: -109px;
+   					left: 0px;	
+				}
+			}
+			.app3{
+				img{
+					width: 85%;
+				}
+				.about{
+					bottom: -130px;
+    				left: 40px;
+				}
+			}
+			
+		}
+
+	
+	}
+
+	.contact-fluid{
+		.contact-container{
+			margin:0 auto;
+			width: 100%;
+			padding: 30px 20px;
+			text-align: center;
+			
+
+			.contact_us{
+				
+				text-align: center;
+				margin-left: -15px;
+				margin-right: -15px;
+
+				.date-radio{
+					margin-right: 20%;
+				}
+			}
+		}
+	}
+
+
+
+}
+@media(max-width:992px)  {
+	.links-fixed {
+    right: -80px;
+}
+
+	.top-fluid{
+		.top-container{
+			.title-wrap{
+				padding-left: 20px;
+				img{
+					display: inline-block;
+
+				}
+				.subtitle{
+					display: inline-block;
+					width: 80%;
+    				padding-left: 10%;
+    				font-size: 22px;
+				
+				}
+				.title{
+					margin-top: 20px;
+    				line-height: 80px;
+    				line-height: 80px;
+    				font-size: 56px;
+					
+					.violet{
+						color: rgb(97,109,167);
+					}
+				}
+			}
+
+			.phone-wrap{
+				height: 200px;
+				
+			}
+
+		}
+}
+	.services-fluid{
+		.services-container{
+			.line{
+				padding-left: 20px;
+			}
+			.subtitle{
+				text-align: center;
+			}
+			.services-row{
+				.service-text{
+					p{
+						font-size: 15px;
+						padding-left: 20px;
+					}
+					} 
+				.service{
+					.service-img{
+						width: 220px;
+						img{
+							margin-left: -140px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.apps-fluid{
+	
+		.apps{
+			.app{
+				&:after{
+					display: none;
+				}
+			}
+
+			.app1 {
+				left: 0;
+				text-align: center;
+				.about {
+ 					bottom: -80px;
+    				left: 60px
+    			}
+    			&:before{
+    				right: 10%;
+    			}
+			}
+			.app2{
+				right: 30%;
+				margin-top: 80px;
+				.about{
+					bottom: -30px;
+    				left: 80%;
+				}
+			}
+			.app3{
+				margin-top: 100px;
+				text-align: center;	
+				img{
+					width: 60%;
+					padding-left: 40px;
+				}
+				.about{
+					bottom: 0px;
+    				left: 60px;
+				}
+			}
+			.app4{
+				right: 80px;
+				margin-top: 80px;
+				.about{
+					bottom: -50px;
+    				left: 140px;
+				}
+			}
+			
+		}
+
+	
+	}
+
+	.lap-fluid{
+		background: none;
+
+		.laptop{
+			img{
+				display: block;
+			}
+		}
+		.feedback{
+			margin-left: 0;
+			text-align: justify;
+		}
+	}
+
+	.contact-fluid{
+		.contact-container{
+
+
+			.contact_us{
+				.form-title{
+					text-align: center;
+					margin-bottom: 20px;
+				}
+
+				input{
+					width: 60%;
+					margin-top: 20px;
+					margin-right: 0;
+				}
+				input[type="email"]{
+					width: 60%;
+				}
+				input[type="submit"]{
+					width: 60%;
+					text-align: center;
+					margin: auto;
+				}
+				.date-radio{
+					margin-right: 5%;
+				}
+				.checkboxes-title{
+					margin-top: 20px;
+    				margin-bottom: 20px;
+				}
+
+			}
+		}
+		.sponsors-container{
+		margin-bottom: 20px;
+		.sponsor-wrap{
+			margin-top: 20px;
+		}
+	}
+
+	}
+
+	.instagram-fluid{
+	
+	.colage{
+		
+		margin-top: 40px;
+		.photo{
+		width: 25%;
+		display: inline-block;
+		overflow-x: hidden;
+		img{
+			width: 100%;
+		}
+	}
+	}
 	
 }
 
-@media(min-width:321px) and (max-width:480px) {
+.footer-fluid{
+	.links{
+		margin: 20px auto;
+	}
+}
+}
+
+@media(max-width:768px)  {
+
+	header {
+    padding: 25px 10px 0;
+}
+	.links-fixed {
+    display: none;
+}
+
+	.top-fluid{
+		.top-container{
+			.title-wrap{
+				text-align: center;
+				img{
+					display: none;
+
+
+				}
+				.subtitle{
+					text-align: center;
+					padding-left: 0;
+				
+				}
+				.title{
+					text-align: center;
+
+				}
+			}
+
+			.phone-wrap{
+				text-align: center;
+				height: auto;
+				img{
+					width: 50%;
+					text-align: center;
+				}
+				
+			}
+
+		}
+
+		.scroll-down{
+			display: none;
+		}
+}
+	.services-fluid{
+		padding-bottom: 50px;
+		.services-container{
+			.line{
+				display: none;
+			}
+			.subtitle{
+				text-align: center;
+			}
+			.services-row{
+				.service-text{
+					p{
+						font-size: 15px;
+						padding-left: 20px;
+					}
+					} 
+				.service{
+					margin-bottom: 30px;
+					.service-img{
+						width: 220px;
+						img{
+							margin-left: -140px;
+						}
+					}
+					.img-description{
+						.description{
+							position: static;
+							text-align: center;
+							margin-top: 10px;
+    						font-size: 16px;
+						}
+					}
+
+				}
+				.service2{
+					box-shadow: none;
+				}
+
+			}
+		}
+	}
+
+	.apps-fluid{
+	
+		.apps{
+			margin-top: 30px;
+			font-size: 24px;
+			.h3{
+				text-align: center;
+			}
+			.app{
+				width: 100%;
+				margin: auto;
+				margin-top: 50px;
+				img{
+					width: 50%;
+				}
+
+				.about{
+					position: static;
+					.h3{
+						font-size: 20px;
+					}
+
+
+					.description, .status{
+						text-align: center;
+						font-size: 10px;
+					}
+				}
+
+			}
+
+			.app1 {
+				left: 0;
+				text-align: center;
+				position: relative;
+				.about {
+ 					margin-left:100px;
+    			}
+    			&:before{
+    				right: -140px;
+    				top: 28%;
+    			}
+			}
+			.app2{
+				right: 30%;
+				margin-top: 80px;
+				.about{
+					bottom: -30px;
+    				left: 80%;
+				}
+			}
+			.app4{
+			
+				.about{
+					margin-left: 70px;
+
+				}
+			}
+			
+		}
+
+	
+	}
+
+	.lap-fluid{
+		margin: 0;
+
+		.laptop{
+			img{
+				display: block;
+			}
+		}
+		.feedback{
+			padding: 30px 20px;
+		}
+	}
+
+.swipe-fluid .swipe-container{
+.subtitle{
+	margin-bottom: 22px;
+}
+
+	.feature{
+		margin-top: 20px;
+	}
+	.feature1{
+		&:before{
+			left: 16px;
+		}
+	}  
+	.feature2{
+		&:before{
+			left: 0;
+		}
+	} 
+	.feature3{
+		&:before{
+			left: 10px;
+		}
+	} 
+}
+
+	.contact-fluid{
+		padding: 0;
+
+		.contact-container{
+			    height: auto;
+
+			.contact_us{
+				height: auto;
+				background-size: cover;
+				.form-title{
+					text-align: center;
+					margin-bottom: 20px;
+				}
+
+				input{
+					width: 80%;
+					margin: 20px auto;
+					
+				}
+				input[type="email"]{
+					width: 80%;
+				}
+				input[type="submit"]{
+					display: block;
+					margin: 20px 10%;
+					width: 80%;
+					
+				}
+				.date-radio{
+					margin-left: 5%;	
+				}
+				.checkboxes-title{
+					font-size: 24px;
+				}
+
+			}
+		}
+		.sponsors-container{
+		margin-bottom: 20px;
+		.sponsor-wrap{
+			margin: 30px auto;
+		}
+	}
+
+	}
+
+	.instagram-fluid{
+	
+	.colage{
+		
+		.photo{
+		width: 50%;
+		max-width: 100%;
+		
+		
+	}
+	}
 	
 }
 
-@media(min-width:481px) and (max-width:768px) {
-	
+.footer-fluid{
+	padding: 30px 0px;
+	.rights, .adress, .send_email, .links{
+		text-align: center;
+		margin-bottom: 50px;
+	}
 }
-
-@media(min-width:769px) and (max-width:992px) {
-	
-}
-
-@media(min-width:993px) and (max-width:1200px) {
-	
 }
 
 
