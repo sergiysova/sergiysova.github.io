@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31.778 31.778">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #f8f8f8;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" class="cls-1" d="M0,0H31.778V31.778H0Z"/>
+    </clipPath>
+  </defs>
+  <g id="twitter" transform="translate(-464 -236)">
+    <g id="Group_3" data-name="Group 3" transform="translate(464 236)">
+      <path id="Clip_2-2" data-name="Clip 2" class="cls-1" d="M0,0H31.778V31.778H0Z"/>
+      <g id="Group_3-2" data-name="Group 3" class="cls-2">
+        <path id="Fill_1" data-name="Fill 1" class="cls-3" d="M15.887,31.778a15.889,15.889,0,1,1,15.891-15.89A15.907,15.907,0,0,1,15.887,31.778ZM6.976,21.488h0a10.4,10.4,0,0,0,16.012-8.761c0-.168,0-.328-.009-.475a7.389,7.389,0,0,0,1.822-1.89,7.278,7.278,0,0,1-2.1.574,3.667,3.667,0,0,0,1.61-2.025,7.215,7.215,0,0,1-2.325.887,3.664,3.664,0,0,0-6.233,3.337A10.41,10.41,0,0,1,8.216,9.316,3.66,3.66,0,0,0,9.35,14.2a3.62,3.62,0,0,1-1.656-.455.2.2,0,0,0,0,.047,3.662,3.662,0,0,0,2.935,3.584,3.687,3.687,0,0,1-1.651.063,3.661,3.661,0,0,0,3.416,2.541,7.3,7.3,0,0,1-4.543,1.565A7.4,7.4,0,0,1,6.976,21.488Z" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

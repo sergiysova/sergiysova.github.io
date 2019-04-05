@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.777 31.778">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8f8f8;
+      }
+    </style>
+  </defs>
+  <g id="instagra" transform="translate(-520 -236)">
+    <g id="Group_4" data-name="Group 4">
+      <g id="Group_9" data-name="Group 9" transform="translate(520 236)">
+        <path id="Fill_1" data-name="Fill 1" class="cls-1" d="M3.181,6.359A3.173,3.173,0,1,0,0,3.178,3.184,3.184,0,0,0,3.181,6.359" transform="translate(12.706 12.71)"/>
+        <path id="Fill_3" data-name="Fill 3" class="cls-1" d="M3.066,3.062V0h-.4L0,.01.013,3.072Z" transform="translate(19.769 8.934)"/>
+        <path id="Fill_5" data-name="Fill 5" class="cls-1" d="M15.887,31.778a15.889,15.889,0,1,1,15.89-15.89A15.907,15.907,0,0,1,15.887,31.778ZM10.344,6.854a3.5,3.5,0,0,0-3.491,3.494V21.434a3.5,3.5,0,0,0,3.491,3.491H21.431a3.5,3.5,0,0,0,3.494-3.491V10.347a3.5,3.5,0,0,0-3.494-3.494Z" transform="translate(0)"/>
+        <path id="Fill_7" data-name="Fill 7" class="cls-1" d="M12.218,1.854A4.942,4.942,0,1,1,2.7,0H0V7.4A1.728,1.728,0,0,0,1.731,9.129H12.818A1.729,1.729,0,0,0,14.55,7.4V0h-2.7a4.949,4.949,0,0,1,.366,1.854" transform="translate(8.613 14.034)"/>
+      </g>
+    </g>
+  </g>
+</svg>
